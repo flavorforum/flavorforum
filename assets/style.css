@@ -180,6 +180,44 @@ ol.talks li:last-child .talk-row { border-bottom: 0; }
 }
 .soon-art { width: 210px; height: 210px; color: var(--faded); opacity: 0.85; }
 
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  font-family: var(--sans); font-size: 0.95rem; font-weight: 600;
+  background: var(--link); color: var(--paper);
+  border: 1px solid var(--link); border-radius: 6px;
+  padding: 0.7rem 1.3rem; cursor: pointer; text-decoration: none;
+}
+.btn:hover { text-decoration: none; filter: brightness(1.12); }
+.btn-quiet { background: transparent; color: var(--link); }
+.btn-quiet:hover { background: var(--soft); filter: none; }
+.btn svg { width: 18px; height: 18px; flex: none; }
+
+/* ---------- Discussion room (join page) ---------- */
+.join-box { margin-top: 1.6rem; }
+.join-note { font-family: var(--sans); font-size: 0.82rem; color: var(--faded); margin-top: 0.7rem; }
+.room-rules { margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); max-width: 34rem; }
+.room-rules h2 { font-size: 1.02rem; margin-bottom: 0.4rem; }
+.room-rules ul { padding-left: 1.1rem; color: var(--faded); }
+.room-rules li + li { margin-top: 0.3rem; }
+
+/* ---------- Room page (the call itself) ---------- */
+.room-body { height: 100vh; height: 100dvh; min-height: 0; overflow: hidden; }
+.room-bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 0.55rem 16px; border-bottom: 1px solid var(--rule); flex: none;
+}
+.room-bar .brand svg { width: 24px; height: 24px; }
+.room-bar .brand-name { font-size: 1.08rem; }
+.room-label { font-family: var(--sans); font-size: 0.8rem; color: var(--faded); }
+.room-main { flex: 1; min-height: 0; position: relative; display: flex; }
+.room-call { flex: 1; min-height: 0; background: #1c1c1f; }
+.room-call[hidden], .room-status[hidden], .room-actions[hidden] { display: none; }
+.room-status { margin: auto; padding: 2rem 16px; max-width: 30rem; text-align: center; }
+.room-status h1 { font-size: 1.6rem; line-height: 1.25; margin-bottom: 0.6rem; font-weight: 600; }
+.room-status p { color: var(--faded); }
+.room-actions { display: flex; flex-wrap: wrap; gap: 0.7rem; justify-content: center; margin-top: 1.3rem; }
+
 /* ---------- Footer ---------- */
 .site-foot { border-top: 1px solid var(--rule); font-family: var(--sans); font-size: 0.82rem; color: var(--faded); }
 .site-foot .wrap { display: flex; justify-content: space-between; gap: 0.5rem 1.5rem; flex-wrap: wrap; padding-top: 1.2rem; padding-bottom: 1.6rem; }

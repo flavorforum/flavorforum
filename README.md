@@ -9,7 +9,8 @@ Static website for Flavor Forum, hosted on GitHub Pages at <https://flavorforum.
 | `index.html` | Home: two upcoming events, recent talks, contact |
 | `past-talks.html` | List of all past talks, grouped by year |
 | `talk.html?id=...` | One talk: title, abstract, speaker details |
-| `discussion-room.html` | Discussion room (coming soon) |
+| `discussion-room.html` | Discussion room: rules and the Join button |
+| `room.html` | The video call itself (Daily), opened in a new tab by the Join button |
 | `404.html` | Page shown for a wrong link |
 
 ## Everyday edits
@@ -18,7 +19,22 @@ Static website for Flavor Forum, hosted on GitHub Pages at <https://flavorforum.
 
 **Change the upcoming events.** Edit the two `<article class="ad ...">` blocks in `index.html`. When a date is fixed, replace `To be announced` with the date and time. After the talk, delete the block and add the talk to `assets/talks.js`.
 
-**Do not put meeting links or passcodes in this repository.** Everything here is public.
+**Do not put meeting passcodes or admin tokens in this repository.** Everything here is public.
+
+## Discussion room
+
+The call runs on Daily (dashboard.daily.co) and is shown inside `room.html`, so visitors stay on flavorforum.in. The room address is set in one line near the bottom of `room.html` (`ROOM_URL`). The Daily library is kept in `assets/vendor/` so the site does not depend on an outside script host.
+
+**Admin link.** An owner token gives the holder host controls (mute or remove people, end the meeting for all). Make one with the API key from the Daily dashboard (Developers → API keys):
+
+```
+curl -s -X POST https://api.daily.co/v1/meeting-tokens \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{"properties":{"room_name":"flavorforum_general","is_owner":true,"user_name":"Flavor Forum (host)","exp":1830297600}}'
+```
+
+It prints `{"token":"..."}`. The admin link is `https://flavorforum.in/room.html#t=` followed by the token. Keep it private and do not commit it here. The token expires on 1 January 2028; run the command again to make a new one.
 
 ## Publishing on GitHub Pages
 

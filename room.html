@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Discussion room · Flavor Forum</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="room-body">
+
+<header class="room-bar">
+  <a class="brand" href="index.html" target="_blank" rel="noopener" aria-label="Flavor Forum home (opens in a new tab)">
+    <svg viewBox="0 0 30 30" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="5" r="3.6"/><circle cx="15" cy="5" r="1.9"/><circle cx="25" cy="5" r="0.9"/><circle cx="5" cy="15" r="1.9"/><circle cx="15" cy="15" r="3.6"/><circle cx="25" cy="15" r="1.9"/><circle cx="5" cy="25" r="0.9"/><circle cx="15" cy="25" r="1.9"/></g><circle cx="25" cy="25" r="3.6" fill="#b4651a"/></svg>
+    <span class="brand-name">Flavor Forum</span>
+  </a>
+  <span class="room-label">Discussion room</span>
+</header>
+
+<main class="room-main">
+  <div id="call" class="room-call" aria-label="Video call"></div>
+
+  <section id="status" class="room-status">
+    <p class="kicker" id="status-kicker">Discussion room</p>
+    <h1 id="status-title">Loading the room…</h1>
+    <p id="status-text">This should take a few seconds.</p>
+    <p class="room-actions" id="status-actions" hidden>
+      <button type="button" class="btn" id="rejoin">Join again</button>
+      <a class="btn btn-quiet" href="index.html">Go to the home page</a>
+    </p>
+  </section>
+</main>
+
+<script src="assets/vendor/daily-0.94.0.js"></script>
+<script>
+(function () {
+  /* The room address. Change this line if the Daily room changes. */
+  var ROOM_URL = "https://flavorforum.daily.co/flavorforum_general";
+
+  /* An admin link has the form room.html#t=<token>. The token stays in this
+     browser: it is read once and then removed from the address bar. */
+  var token = null;
+  var m = window.location.hash.match(/[#&]t=([^&]+)/);
+  if (m) {
+    token = decodeURIComponent(m[1]);
+    try { history.replaceState(null, "", window.location.pathname + window.location.search); } catch (e) {}
+  }
+
+  var callEl = document.getElementById("call");
+  var statusEl = document.getElementById("status");
+  var kicker = document.getElementById("status-kicker");
+  var title = document.getElementById("status-title");
+  var text = document.getElementById("status-text");
+  var actions = document.getElementById("status-actions");
+  var frame = null;
+
+  function show(k, t, p, withActions) {
+    kicker.textContent = k;
+    title.textContent = t;
+    text.innerHTML = p;
+    actions.hidden = !withActions;
+    statusEl.hidden = false;
+    callEl.hidden = true;
+  }
+
+  function start() {
+    if (typeof window.Daily === "undefined") {
+      show("Something went wrong", "The room could not be loaded.",
+        'Please check your internet connection and reload this page. If it keeps happening, write to <a href="mailto:flavourforum@gmail.com">flavourforum@gmail.com</a>.', false);
+      return;
+    }
+    show("Discussion room", "Loading the room…", "This should take a few seconds.", false);
+
+    frame = window.Daily.createFrame(callEl, {
+      showLeaveButton: true,
+      showFullscreenButton: true,
+      iframeStyle: { width: "100%", height: "100%", border: "0" },
+      theme: {
+        colors: {
+          accent: "#17427a",
+          accentText: "#ffffff",
+          background: "#fbfaf6",
+          backgroundAccent: "#f2efe6",
+          baseText: "#1c1c1f",
+          border: "#dcd8ce",
+          mainAreaBg: "#1c1c1f",
+          mainAreaBgAccent: "#2c2c31",
+          mainAreaText: "#ffffff",
+          supportiveText: "#5b5a61"
+        }
+      }
+    });
+
+    var slow = setTimeout(function () {
+      if (!statusEl.hidden) {
+        text.innerHTML = 'This is taking longer than usual. Please check your internet connection. On some office or campus networks video calls are blocked; if so, try another network or your phone. You can also write to <a href="mailto:flavourforum@gmail.com">flavourforum@gmail.com</a>.';
+      }
+    }, 20000);
+
+    frame.on("loaded", function () {
+      clearTimeout(slow);
+      statusEl.hidden = true;
+      callEl.hidden = false;
+    });
+    frame.on("left-meeting", function () {
+      if (frame) { frame.destroy(); frame = null; }
+      show("Discussion room", "You have left the room.",
+        "You can join again, or close this tab.", true);
+    });
+    function failed(ev) {
+      var msg = (ev && (ev.errorMsg || (ev.error && ev.error.msg))) || "";
+      if (frame) { frame.destroy(); frame = null; }
+      show("Something went wrong", "We could not connect you to the room.",
+        (msg ? "The service said: " + msg.replace(/[<>&]/g, "") + ". " : "") +
+        'Please reload this page and try again. If it keeps happening, write to <a href="mailto:flavourforum@gmail.com">flavourforum@gmail.com</a>.', true);
+    }
+    frame.on("error", failed);
+    frame.on("load-attempt-failed", failed);
+
+    var opts = { url: ROOM_URL };
+    if (token) opts.token = token;
+    frame.join(opts).catch(failed);
+  }
+
+  document.getElementById("rejoin").addEventListener("click", start);
+  start();
+})();
+</script>
+</body>
+</html>
