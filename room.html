@@ -9,7 +9,45 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=2">
+<style>
+/* Room layout kept in this page so it never depends on a cached stylesheet */
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  font-family: var(--sans); font-size: 0.95rem; font-weight: 600;
+  background: var(--link); color: var(--paper);
+  border: 1px solid var(--link); border-radius: 6px;
+  padding: 0.7rem 1.3rem; cursor: pointer; text-decoration: none;
+}
+.btn:hover { text-decoration: none; filter: brightness(1.12); }
+.btn-quiet { background: transparent; color: var(--link); }
+.btn-quiet:hover { background: var(--soft); filter: none; }
+.btn svg { width: 18px; height: 18px; flex: none; }
+
+/* ---------- Room page (the call itself) ---------- */
+.room-body { height: 100vh; height: 100dvh; min-height: 0; overflow: hidden; }
+.room-bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 0.55rem 16px; border-bottom: 1px solid var(--rule); flex: none;
+}
+.room-bar .brand svg { width: 24px; height: 24px; }
+.room-bar .brand-name { font-size: 1.08rem; }
+.room-label { font-family: var(--sans); font-size: 0.8rem; color: var(--faded); }
+.room-main { flex: 1; min-height: 0; position: relative; display: flex; }
+.room-call { flex: 1; min-height: 0; background: #1c1c1f; }
+.room-call[hidden], .room-status[hidden], .room-actions[hidden] { display: none; }
+.room-status { margin: auto; padding: 2rem 16px; max-width: 30rem; text-align: center; }
+.room-status h1 { font-size: 1.6rem; line-height: 1.25; margin-bottom: 0.6rem; font-weight: 600; }
+.room-status p { color: var(--faded); }
+.room-actions { display: flex; flex-wrap: wrap; gap: 0.7rem; justify-content: center; margin-top: 1.3rem; }
+
+html, body.room-body { margin: 0; padding: 0; }
+.room-body { display: flex; flex-direction: column; }
+.room-bar .brand { display: flex; align-items: center; gap: 0.5rem; color: var(--ink, #1c1c1f); text-decoration: none; }
+.room-bar .brand-name { font-weight: 700; }
+.room-call iframe { display: block; width: 100%; height: 100%; border: 0; }
+</style>
 </head>
 <body class="room-body">
 
