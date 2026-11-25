@@ -184,7 +184,7 @@
 
     function notFound() {
       root.innerHTML = '<div class="wrap"><div class="talk-wrap">' +
-        '<a class="back" href="papers.html">← All recent papers</a>' +
+        '<a class="back" href="papers.html">← Preprint watch</a>' +
         '<p class="kicker">Paper not found</p><h1 class="talk-h1">This paper is not in our list.</h1>' +
         '<p>The link may be mistyped, or the paper was removed from the list.' +
         (/^\d{4}\.\d{4,5}$/.test(id) ? ' You can still <a href="https://arxiv.org/abs/' + esc(id) + '" rel="noopener">read it on arXiv</a>.' : "") +
@@ -204,7 +204,7 @@
 
       root.innerHTML =
         '<div class="wrap"><header class="paper-head">' +
-        '<a class="back" href="papers.html">← All recent papers</a>' +
+        '<a class="back" href="papers.html">← Preprint watch</a>' +
         '<p class="kicker">arXiv:' + esc(p.id) + (p.categories ? ' · ' + esc(p.categories.join(", ")) : "") +
         ' · ' + esc(longDate(p.date)) + '</p>' +
         '<h1 class="talk-h1">' + esc(p.title) + '</h1>' +

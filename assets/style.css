@@ -9,6 +9,7 @@
   --link: #17427a;
   --accent-a: #8a4f0f;   /* open discussion */
   --accent-b: #17427a;   /* talk */
+  --upcoming-bg: #f5ead8;
   --serif: "STIX Two Text", "Times New Roman", Georgia, serif;
   --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
@@ -23,6 +24,7 @@
     --link: #93b6ea;
     --accent-a: #e0a55c;
     --accent-b: #93b6ea;
+    --upcoming-bg: #2a231b;
   }
 }
 
@@ -110,6 +112,32 @@ sub, sup { font-size: 0.72em; line-height: 0; }
 .ad .ad-foot { margin-top: auto; padding-top: 1rem; font-family: var(--sans); font-size: 0.84rem; color: var(--faded); }
 
 .recent { margin-bottom: 3rem; }
+
+/* Home: recent talks on the left, upcoming meetings in a sidebar on the right.
+   On narrow screens the sidebar drops below the recent talks. */
+.home-grid {
+  display: grid; grid-template-columns: minmax(0, 1fr) 21rem; gap: 2.5rem;
+  align-items: start; margin-bottom: 3rem;
+}
+.home-grid .recent { margin-bottom: 0; }
+.upcoming {
+  background: var(--upcoming-bg); border-radius: 8px; padding: 1.1rem 1.1rem 1.2rem;
+  display: flex; flex-direction: column; gap: 0.8rem; margin: 0;
+}
+.upcoming-h {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 1.15rem; color: var(--accent-a);
+}
+.upcoming-h::before {
+  content: ""; width: 0.6rem; height: 0.6rem; border-radius: 50%; background: #b4651a; flex: none;
+}
+.upcoming .ad { padding: 0.95rem 1rem 1rem; border-top-width: 3px; }
+.upcoming .ad-kind { margin-bottom: 0.35rem; }
+.upcoming .ad h3 { font-size: 1.06rem; line-height: 1.3; margin-bottom: 0.65rem; }
+.upcoming .ad-meta {
+  font-size: 0.9rem; gap: 0.2rem 0.8rem; padding: 0.55rem 0 0; margin: 0; border-bottom: 0;
+}
+.upcoming .ad-foot { font-family: var(--sans); font-size: 0.8rem; color: var(--faded); line-height: 1.45; }
 .about-strip {
   background: var(--soft); border-radius: 6px; padding: 1.4rem 1.5rem; margin-bottom: 3.5rem;
   display: grid; grid-template-columns: 1fr auto; gap: 1rem 2rem; align-items: center;
@@ -223,6 +251,9 @@ ol.talks li:last-child .talk-row { border-bottom: 0; }
 .site-foot .wrap { display: flex; justify-content: space-between; gap: 0.5rem 1.5rem; flex-wrap: wrap; padding-top: 1.2rem; padding-bottom: 1.6rem; }
 
 /* ---------- Small screens ---------- */
+@media (max-width: 900px) {
+  .home-grid { grid-template-columns: 1fr; gap: 2rem; }
+}
 @media (max-width: 760px) {
   .ads { grid-template-columns: 1fr; }
   .about-strip { grid-template-columns: 1fr; }
@@ -232,6 +263,7 @@ ol.talks li:last-child .talk-row { border-bottom: 0; }
 }
 @media (max-width: 480px) {
   html { font-size: 16px; }
+  .site-nav { gap: 0.25rem 0.95rem; font-size: 0.84rem; }
   .hero { padding: 2.2rem 0 1.8rem; }
   .hero h1 { font-size: 1.85rem; }
   .page-title, .soon h1 { font-size: 1.75rem; }
@@ -386,4 +418,7 @@ textarea { resize: vertical; min-height: 6.5rem; line-height: 1.45; }
 @media (max-width: 480px) {
   .c-row { flex-direction: column; }
   .abstract p { text-align: left; }
+}
+@media (max-width: 370px) {
+  .site-nav { gap: 0.25rem 0.7rem; font-size: 0.8rem; }
 }

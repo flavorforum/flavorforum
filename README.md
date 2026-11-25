@@ -9,7 +9,7 @@ Static website for Flavor Forum, hosted on GitHub Pages at <https://flavorforum.
 | `index.html` | Home: two upcoming events, recent talks, contact |
 | `past-talks.html` | List of all past talks, grouped by year |
 | `talk.html?id=...` | One talk: title, abstract, speaker details |
-| `papers.html` | Recent flavor papers with an author in India (last 60 days), as cards |
+| `papers.html` | Preprint watch: recent flavor papers from groups in India (last 60 days), as cards |
 | `paper.html?id=<arXiv number>` | One paper: details, the paper itself (from arXiv), and comments |
 | `admin.html` | Moderation of comments (not linked from the site) |
 | `discussion-room.html` | Discussion room: rules and the Join button |
@@ -39,7 +39,7 @@ curl -s -X POST https://api.daily.co/v1/meeting-tokens \
 
 It prints `{"token":"..."}`. The admin link is `https://flavorforum.in/room.html#t=` followed by the token. Keep it private and do not commit it here. The token expires on 1 January 2028; run the command again to make a new one.
 
-## Recent papers and comments
+## Preprint watch and comments
 
 ### How it works
 

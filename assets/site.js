@@ -48,14 +48,10 @@
       '</a></li>';
   }
 
-  /* Home page: three most recent talks and the running count */
+  /* Home page: three most recent talks */
   var recent = document.getElementById("recent-talks");
   if (recent) {
     recent.innerHTML = talks.slice(0, 3).map(function (t) { return row(t, true); }).join("");
-  }
-  var count = document.getElementById("talk-count");
-  if (count && talks.length) {
-    count.textContent = talks.length + " talks since " + monthYear(talks[talks.length - 1].date) + ".";
   }
 
   /* Past talks page: grouped by year */

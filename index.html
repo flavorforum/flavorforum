@@ -9,20 +9,20 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=3">
+<link rel="stylesheet" href="assets/style.css?v=4">
 </head>
 <body>
 
 <header class="site-head">
   <div class="wrap">
     <a class="brand" href="index.html" aria-label="Flavor Forum home">
-      <svg viewBox="0 0 30 30" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="5" r="3.6"/><circle cx="15" cy="5" r="1.9"/><circle cx="25" cy="5" r="0.9"/><circle cx="5" cy="15" r="1.9"/><circle cx="15" cy="15" r="3.6"/><circle cx="25" cy="15" r="1.9"/><circle cx="5" cy="25" r="0.9"/><circle cx="15" cy="25" r="1.9"/></g><circle cx="25" cy="25" r="3.6" fill="#b4651a"/></svg>
+      <svg viewBox="0 0 30 30" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="5" r="3.58"/><circle cx="15" cy="5" r="2.48"/><circle cx="25" cy="5" r="0.89"/><circle cx="5" cy="15" r="2.47"/><circle cx="15" cy="15" r="3.58"/><circle cx="25" cy="15" r="1.62"/><circle cx="5" cy="25" r="1.10"/><circle cx="15" cy="25" r="1.63"/></g><circle cx="25" cy="25" r="3.6" fill="#b4651a"/></svg>
       <span class="brand-name">Flavor Forum</span>
     </a>
     <nav class="site-nav" aria-label="Main">
       <a href="index.html" aria-current="page">Home</a>
       <a href="past-talks.html">Past talks</a>
-      <a href="papers.html">Papers</a>
+      <a href="papers.html">Preprint watch</a>
       <a href="discussion-room.html">Discussion room</a>
     </nav>
   </div>
@@ -35,12 +35,21 @@
       <p class="kicker">Flavor physics in India</p>
       <h1>Monthly talks and discussions on flavor physics.</h1>
       <p>Flavor Forum is a platform for PhD students and postdocs in India working on flavor physics. Each month a participant presents their work, and the talk is followed by an open discussion.</p>
-      <p class="count" id="talk-count"></p>
     </section>
 
-    <section class="upcoming" aria-labelledby="up-h">
-      <div class="section-head"><h2 id="up-h">Upcoming</h2></div>
-      <div class="ads">
+    <div class="home-grid">
+
+      <section class="recent" aria-labelledby="recent-h">
+        <div class="section-head">
+          <h2 id="recent-h">Recent talks</h2>
+          <a href="past-talks.html">All past talks →</a>
+        </div>
+        <ol class="talks" id="recent-talks"></ol>
+        <noscript><p>See the <a href="past-talks.html">list of past talks</a>.</p></noscript>
+      </section>
+
+      <aside class="upcoming" aria-labelledby="up-h">
+        <h2 id="up-h" class="upcoming-h">Upcoming</h2>
 
         <article class="ad ad-discussion">
           <p class="ad-kind">Open discussion</p>
@@ -50,9 +59,6 @@
             <dt>Date</dt><dd class="tba">To be announced</dd>
             <dt>Who</dt><dd>Open to all</dd>
           </dl>
-          <p>Many of us now use AI tools in our work, for coding, reading papers or writing. In this meeting we want to hear how people use them, where they help, and where they do not.</p>
-          <p>Come and share your experience, or just listen.</p>
-          <p class="ad-foot">The date and meeting link will be announced by email and on this page.</p>
         </article>
 
         <article class="ad ad-talk">
@@ -63,22 +69,12 @@
             <dt>Date</dt><dd class="tba">To be announced</dd>
             <dt>Paper</dt><dd><a href="https://arxiv.org/abs/2610.12373" rel="noopener">arXiv:2610.12373</a></dd>
           </dl>
-          <p>Rajeev will present this recent paper with Md I. Ali, S. Karmakar and S. K. Vempati. It asks how lepton flavor violation in the τ sector can show up in μ → e transitions within SMEFT, through dimension-six running and dimension-eight mixing.</p>
-          <p>One result is that current μ → e limits constrain products of τ → ℓ couplings much more strongly than direct τ decay limits do.</p>
-          <p class="ad-foot">The date and meeting link will be announced by email and on this page.</p>
         </article>
 
-      </div>
-    </section>
+        <p class="ad-foot">The dates and meeting links will be announced by email and on this page.</p>
+      </aside>
 
-    <section class="recent" aria-labelledby="recent-h">
-      <div class="section-head">
-        <h2 id="recent-h">Recent talks</h2>
-        <a href="past-talks.html">All past talks →</a>
-      </div>
-      <ol class="talks" id="recent-talks"></ol>
-      <noscript><p>See the <a href="past-talks.html">list of past talks</a>.</p></noscript>
-    </section>
+    </div>
 
     <section class="about-strip" aria-labelledby="about-h">
       <div>
@@ -99,6 +95,6 @@
 </footer>
 
 <script src="assets/talks.js"></script>
-<script src="assets/site.js"></script>
+<script src="assets/site.js?v=2"></script>
 </body>
 </html>
