@@ -1,0 +1,3 @@
+# arXiv numbers to never list, one per line (e.g. 2611.01234).
+# Use this for an off-topic paper the automatic filter picked up.
+# Lines starting with # are ignored.

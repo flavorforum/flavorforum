@@ -1,0 +1,19 @@
+# Flavor Forum comments service (Cloudflare Worker + D1). See README.md.
+name = "flavorforum-comments"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+# Sites allowed to call this service. Add more, comma-separated, if needed.
+ALLOWED_ORIGINS = "https://flavorforum.in,https://www.flavorforum.in,http://localhost:8000"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "flavorforum-comments"
+# Paste the database_id printed by: npx wrangler d1 create flavorforum-comments
+database_id = "PASTE-DATABASE-ID-HERE"
+
+# Secrets (not in this file; set each once with `npx wrangler secret put NAME`):
+#   TURNSTILE_SECRET  secret key of the Turnstile widget
+#   ADMIN_KEY         long random password for the moderation page
+#   IP_SALT           long random string, used to hash visitor IP addresses

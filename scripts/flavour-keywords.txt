@@ -1,0 +1,53 @@
+# Flavour keywords used by fetch_papers.py
+#
+# A paper is listed if its title or abstract matches at least one line below
+# (and at least one author is at an institute in India).
+#
+# Each line is a Python regular expression. Lines are case-sensitive unless they
+# start with (?i). Abstracts on INSPIRE are mostly LaTeX, so "\\to" matches the
+# text \to. Lines starting with # are ignored. Edit freely: the next daily run
+# uses the new list.
+
+# ---- general flavour words
+(?i)\bflavou?r[- ](physics|changing|violat\w*|anomal\w*|observables?|symmetr\w*|structure|puzzle)
+(?i)\b(lepton|quark)[- ]flavou?r
+(?i)\bflavou?rful\b
+(?i)\bFCNCs?\b
+(?i)\bCKM\b|Cabibbo|unitarity triangle|\bV_\{?(ub|cb|us|ud|td|ts)\}?
+(?i)\bLF[UV]\b|lepton[- ]universality
+(?i)\bminimal flavou?r violation\b|\bMFV\b
+
+# ---- mesons and baryons
+(?i)\bB[ -]?(mesons?|physics|factor(y|ies)|decays?|anomal\w*|hadrons?)\b
+(?i)\b(kaons?|kaonic)\b
+(?i)\b(charm(ed)?|bottom|beauty)[- ](mesons?|baryons?|hadrons?|decays?|quark decays?)
+(?i)\bD[ -]mesons?\b
+\\Lambda_?\{?[bc]\}?|Λ_?[bc]\b
+(?i)\bheavy[- ]quark (effective|symmetry|expansion)|\bHQET\b
+(?i)\b(meson|neutral[- ]meson|meson[- ]antimeson|B_?s?|kaon|D)[- ]mixing\b
+\\Delta\s*[FBSC]\s*=\s*[12]
+\b[BDK](_\{?[sdL]\}?)?(\^\{?0\}?)?\s*[-–]\s*\\(bar|overline)\s*\{?[BDK]
+
+# ---- decays written with arrows (LaTeX or Unicode)
+\b[BKD](_\{?[scu0]\}?|\^\{?[0+\-*]\}?)*\s*(\\to|\\rightarrow|→)
+\b[bcst]\s*(\\to|\\rightarrow|→)\s*[sducℓ]\b
+\\(tau|mu)\s*(\\to|\\rightarrow|→)
+(?i)\b(tau|muon|mu)[- ]to[- ](e|electron|mu|muon)\b
+(?i)\b\\?(mu|μ)\s*-?\s*e\s+conversion|\bmuon[- ]to[- ]electron conversion
+
+# ---- ratios and anomalies
+R_\{?\(?(D|K|J|\\Lambda)|R\((D|K|J)
+(?i)\bsemi-?leptonic\b
+(?i)\b(rare|radiative|leptonic|non-?leptonic|hadronic) (B |K |D |kaon |charm |bottom )?(meson )?decays?\b
+
+# ---- experiments
+\b(LHCb|Belle( ?II)?|BES ?III|NA62|KOTO|Mu2e|COMET|MEG( ?II)?|Mu3e|BaBar|CLEO)\b
+
+# ---- new physics often discussed in flavour context
+(?i)\bleptoquarks?\b
+(?i)\b(muon|electron)\s*\(?g\s*-\s*2\)?|\(g\s*-\s*2\)_\{?\\?mu|anomalous magnetic moment
+(?i)\belectric dipole moments?\b
+
+# CP violation is not listed on its own, because it would also pick up many
+# neutrino and baryogenesis papers. Uncomment the next line to include it.
+# (?i)\bCP[- ]violat
