@@ -1,5 +1,1760 @@
 {
- "updated": null,
+ "updated": "2026-11-25",
  "window_days": 60,
- "papers": []
+ "papers": [
+  {
+   "id": "2611.26209",
+   "date": "2026-11-19",
+   "title": "Observation of the electromagnetic Dalitz decay $J/ψ\\rightarrow μ^+ μ^- η$",
+   "abstract": "Using a data sample of $(8.998 \\pm 0.039)\\times10^9$$J/ψ$ events collected by the BESIII detector at BEPCII, we report the observation of the electromagnetic Dalitz decay $J/ψ\\to μ^+ μ^- η$ for the first time, with a statistical significance greater than 10$σ$. The branching fraction is measured to be $\\mathcal{B}(J/ψ\\to μ^+ μ^- η) = (3.05 \\pm 0.14_{\\rm stat.} \\pm 0.13_{\\rm syst.})\\times 10^{-6}$. The ratio of this branching fraction to that of the corresponding radiative decay $J/ψ\\to γη$ is determined to be $\\mathcal{B}(J/ψ\\to μ^+μ^-η)/\\mathcal{B}(J/ψ\\to γη) = (2.80 \\pm 0.18) \\times 10^{-3}$. Combining this result with the previous BESIII measurement of the $J/ψ\\to e^+e^-η$ branching fraction yields $\\mathcal{B}(J/ψ\\to μ^+μ^-η)/\\mathcal{B}(J/ψ\\to e^+e^-η) = 0.219 \\pm 0.020$. These results are consistent with the theoretical predictions based on the vector meson dominance model.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 767,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3231344,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2611.23922",
+   "date": "2026-11-18",
+   "title": "Gravitational Form Factors and Transverse Mechanical Structure of the Charged Kaon in a Two-Fock-Sector Light-Front Hamiltonian",
+   "abstract": "We study the electromagnetic and gravitational form factors of the charged kaon in a light-front Hamiltonian model with coupled $|u\\bar s\\rangle$ and $|u\\bar s g\\rangle$ Fock sectors. We solve the coupled Hamiltonian in a longitudinal Jacobi and transverse harmonic-oscillator basis, with the interaction strength fixed by the kaon mass. The momentum form factors are extracted from $T^{++}$, while the stress form factors are obtained from the transverse shear projection of the QCD Belinfante energy-momentum tensor, including diagonal, sector-changing, and constrained-field contributions. The strange antiquark carries the largest fraction of the kaon's longitudinal momentum, whereas the gluon carries only $2.05\\%$. Despite this small momentum fraction, the gluon contributes $42.4\\%$ of $|D_K(0)|$, for which we obtain $D_K(0)=-2.03610$. The charge and transverse momentum radii are $0.5178\\pm0.0278\\,\\mathrm{fm}$ and $0.3394\\pm0.0113\\,\\mathrm{fm}$, respectively, with uncertainties estimated from mass and basis variations. We obtain the transverse mechanical distributions using two ultraviolet continuations of the directly calculated $D$ form factors beyond $Q^2=2\\,\\mathrm{GeV}^2$. Both continuations give positive pressure at small transverse distances and negative pressure at larger distances. The corresponding transverse mechanical radii are $0.4616\\pm0.0130\\,\\mathrm{fm}$ and $0.4768\\pm0.0132\\,\\mathrm{fm}$, both larger than the transverse momentum radius. The central pressure changes substantially between the two continuations, whereas the pressure zero and mechanical radii vary much less.",
+   "authors": [
+    {
+     "n": "Parashmani Thakuria",
+     "in": true
+    },
+    {
+     "n": "Madhurjya Lalung",
+     "in": true
+    },
+    {
+     "n": "Jayanta Kumar Sarma",
+     "in": true
+    }
+   ],
+   "n_authors": 3,
+   "collaboration": "",
+   "institutes": [
+    "Tezpur U.",
+    "Department of Physics, Nagaon University, Nagaon, India"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3230802,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2611.18060",
+   "date": "2026-11-13",
+   "title": "Probing Dirac Heavy Neutral Leptons through EFT-Induced Meson Decays",
+   "abstract": "We investigate dimension-six operators involving pairs of Dirac-type heavy neutral leptons (HNLs) at beam-dump and far-forward experiments. In the $ν$SMEFT framework, lepton-number-conserving four-fermion operators couple HNL pairs to quarks and induce two and three-body charm and bottom meson decays. We study the $c\\to u$, $b\\to d$, and $b\\to s$ transitions at FASER2, FACET, SHiP, and two FPF@FCC configurations. HNL production depends on the cut-off scale $Λ$, while the lifetime depends on the active-sterile mixing $|V_{eN}|^2$. Sizable production can therefore coexist with the small mixing needed for HNLs to reach distant detectors. We project sensitivities in the $(M_N,|V_{eN}|^2)$ and $(M_N,Λ)$ planes, accounting for two and three-body decays and constraints from invisible and semivisible meson decays. SHiP is particularly sensitive to $c\\to u$, while the larger FCC-LLP2 configuration probes $b\\to d, s$. We find that EFT-induced pair production extends long-lived HNL searches to very small mixing and complements other probes of the $ν$SMEFT heavy-neutrino sector.",
+   "authors": [
+    {
+     "n": "Sai Gade",
+     "in": true
+    },
+    {
+     "n": "Sanjoy Mandal",
+     "in": false
+    },
+    {
+     "n": "Manimala Mitra",
+     "in": true
+    },
+    {
+     "n": "Sushant K. Raut",
+     "in": true
+    }
+   ],
+   "n_authors": 4,
+   "collaboration": "",
+   "institutes": [
+    "School of Physics, University of Hyderabad, Hyderabad -500046, India",
+    "Bhubaneswar, Inst. Phys.",
+    "HBNI, Mumbai",
+    "Krea University, Sri City, India 517646"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3228760,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2611.15973",
+   "date": "2026-11-11",
+   "title": "Observation of the $η$ $\\to$ $μ^+μ^-π^+π^-$ decay and an improved measurement of the $η$ $\\to$ $μ^+μ^-μ^+μ^-$ branching fraction",
+   "abstract": "An observation of the rare decay $η$$\\to$$μ^+μ^-π^+π^-$ is reported from proton-proton collision data at a center-of-mass energy of 13.6 TeV, collected by the CMS experiment at the CERN LHC in 2022 and 2023, and corresponding to an integrated luminosity of 62.6 fb$^{-1}$. In addition, the branching fraction ratio of $η$$\\to$$μ^+μ^-μ^+μ^-$ relative to $η$$\\to$$μ^+μ^-$ is measured with a precision improved by 44% compared with the previous measurement. The measured branching fraction ratios are $\\mathcal{B}(η\\toμ^+μ^-π^+π^-)/\\mathcal{B}(η\\toμ^+μ^-)$ = [2.89 $\\pm$ 0.48 (stat) $^{+0.42}_{-0.29}$ (syst)]$\\times$ 10$^{-3}$ and $\\mathcal{B}(η\\toμ^+μ^-μ^+μ^-)/\\mathcal{B}(η\\toμ^+μ^-)$ = [0.86 $\\pm$ 0.06 (stat) $^{+0.09}_{-0.08}$ (syst)]$\\times$10$^{-3}$.",
+   "authors": [
+    {
+     "n": "Jyothsna Rani Komaragiri",
+     "in": true
+    },
+    {
+     "n": "Seema Bahinipati",
+     "in": true
+    },
+    {
+     "n": "Rishabh Raturi",
+     "in": true
+    },
+    {
+     "n": "Sunil Bansal",
+     "in": true
+    },
+    {
+     "n": "Vipin Bhatnagar",
+     "in": true
+    },
+    {
+     "n": "Bhawana Chauhan",
+     "in": true
+    },
+    {
+     "n": "Sushil Chauhan",
+     "in": true
+    },
+    {
+     "n": "Nitish Dhingra",
+     "in": true
+    },
+    {
+     "n": "Anureet Kaur",
+     "in": true
+    },
+    {
+     "n": "Harjot Kaur",
+     "in": true
+    },
+    {
+     "n": "Sunil Kumar",
+     "in": true
+    },
+    {
+     "n": "Tanvi Sheokand",
+     "in": true
+    },
+    {
+     "n": "Aayushi Singla",
+     "in": true
+    },
+    {
+     "n": "Kashish Verma",
+     "in": true
+    },
+    {
+     "n": "Ashutosh Bhardwaj",
+     "in": true
+    }
+   ],
+   "n_authors": 2484,
+   "collaboration": "CMS",
+   "institutes": [
+    "Bangalore, Indian Inst. Sci.",
+    "Indian Inst. Tech., Bhubaneswar",
+    "Panjab U.",
+    "Delhi U.",
+    "Indian Institute of Technology, Mandi",
+    "IIT, Jodhpur"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3227945,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2611.11723",
+   "date": "2026-11-09",
+   "title": "Measurement of the branching fractions for the decays $χ_{cJ}\\to ϕωη$ and $χ_{cJ}\\to ϕωη^{\\prime}$",
+   "abstract": "Using a sample of $(2712.4 \\pm 14.3) \\times 10^{6}$$ψ(3686)$ events collected with the BESIII detector at the BEPCII collider, we report the first observation and measurement of the branching fractions for the decays $χ_{cJ}\\to ϕωη$ and $χ_{cJ} \\to ϕωη^{\\prime}$ ($J = 0,1,2$) with statistical significance greater than $5σ$. The branching fractions are determined to be $\\mathcal B(χ_{c0} \\to ϕωη) = (5.43 \\pm 0.23 \\pm 0.52) \\times 10^{-4}$, $\\mathcal B(χ_{c1} \\to ϕωη) = (2.51 \\pm 0.14 \\pm 0.24) \\times 10^{-4}$ and $\\mathcal B(χ_{c2} \\to ϕωη) = (3.03 \\pm 0.15 \\pm 0.28) \\times 10^{-4}$ for the $η$ mode, and $\\mathcal B(χ_{c0} \\to ϕωη^{\\prime}) = (1.23 \\pm 0.23 \\pm 0.15) \\times 10^{-4}$, $\\mathcal B(χ_{c1} \\to ϕωη^{\\prime}) = (1.09 \\pm 0.17 \\pm 0.13) \\times 10^{-4}$ and $\\mathcal B(χ_{c2} \\to ϕωη^{\\prime}) = (0.98 \\pm 0.17 \\pm 0.11) \\times 10^{-4}$ for the $η^{\\prime}$ mode, where the first uncertainties are statistical and the second systematic.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 769,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3226528,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2611.11328",
+   "date": "2026-11-08",
+   "title": "Observation of a strange $J^P=1^{-}$ resonance $K^{*}_1(1870)$ in $χ_{c1}\\to K^+K^-η^{\\prime}$ decays",
+   "abstract": "A partial wave analysis of the process $ψ(2S)\\to γχ_{c1}$, $χ_{c1}\\to K^{+}K^{-}η^{\\prime}$, with the $η^{\\prime}$ meson reconstructed in the $π^+π^-γ$ and $π^+π^-η$ decay modes, is performed using a sample of $(2712.4 \\pm 14.3)\\times10^{6}$$ψ(2S)$ events collected with the BESIII detector. In the $Kη^{\\prime}$ system, a resonant contribution with quantum numbers $J^{P}=1^{-}$ is observed for the first time and is denoted as the $K_1^*(1870)$ meson. Its statistical significance is $11.0σ$, and its mass and width are measured to be $M=(1869.0 \\pm 14.6\\pm 18.6$) MeV/$c^{2}$ and $Γ=(167.3 \\pm 34.0\\pm 24.2$) MeV, respectively. The branching fraction of the $χ_{c1}\\to K^{\\mp}K_1^*(1870)^{\\pm}\\to K^{+}K^{-}η^{\\prime}$ decay chain is determined to be $(1.48 \\pm 0.30\\pm 0.33)\\times10^{-5}$. The branching fraction of the $χ_{c1}\\to K^{+}K^{-}η^{\\prime}$ decay is measured to be $(7.90 \\pm 0.48)\\times10^{-4}$. Several intermediate scalar, vector, and tensor states are required to provide a good description of the data. These results provide new input for understanding strange-meson spectroscopy and investigating possible hybrid-state candidates.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 777,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3226483,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2611.06755",
+   "date": "2026-11-04",
+   "title": "Earthquake Forecast via Neutrino Tomography at the DUNE Baseline",
+   "abstract": "We investigate the sensitivity of accelerator-based neutrino oscillations to localized electron-density enhancements associated with seismic fault zones along the Fermilab SURF baseline of the Deep Underground Neutrino Experiment (DUNE). Motivated by the reactor antineutrino proposal of Wang, Chen, and Li, we model the anomaly as a uniform-density slab embedded in the surrounding crust and calculate exact three flavour oscillation probabilities using layer by layer evolution. Our results show that localized density enhancements can produce measurable variations in muon-to-electron appearance probabilities for both neutrinos and antineutrinos, with potentially significant relative effects. The predicted variations exhibit weak dependence on the leptonic CP violating phase, suggesting that time-differential measurements may help reduce uncertainties associated with the unknown CP phase. However, the event statistics required for a statistically significant detection substantially exceed those expected during a short-duration precursor interval. Consequently, detecting sufficiently persistent density anomalies may be possible under favourable conditions, whereas short-term earthquake forecasting is not feasible with the nominal DUNE configuration. Our findings establish a theoretical framework for exploring localized Earth-density perturbations through long-baseline neutrino oscillations.",
+   "authors": [
+    {
+     "n": "Bipin Singh Koranga",
+     "in": true
+    },
+    {
+     "n": "Samrat Vashisht",
+     "in": true
+    },
+    {
+     "n": "Vivek Kumar Nautiyal",
+     "in": true
+    }
+   ],
+   "n_authors": 3,
+   "collaboration": "",
+   "institutes": [
+    "Delhi, Kirori Mal Coll.",
+    "Department of Physics, Chaudhary Charan Singh University, Meerut,…"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3223116,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2611.05685",
+   "date": "2026-11-03",
+   "title": "Probing CP Violation in the Complex 2HDMS with a 95 GeV Scalar at Future $e^+e^-$ Colliders",
+   "abstract": "In this study, we investigate the prospects for probing CP violation in the complex singlet extension of the two-Higgs-doublet model (2HDM) at future electron-positron colliders. In extended scalar sectors, cancellations among different contributions to electric dipole moments (EDMs) can relax the stringent constraints on CP-violating phases, potentially bringing them in the current reach of collider experiments. We consider a scenario in which both the 125 GeV Higgs boson and the additional scalar associated with the reported 95 GeV excess are CP-mixed states. We probe the CP-violating phase of the 95 GeV scalar through its production via Higgsstrahlung and subsequent decay into a tau-lepton pair, using a CP-sensitive forward-backward asymmetry in hadronic and semileptonic tau-decay channels. We estimate the sensitivity at future lepton colliders, namely the ILC, FCC-ee, and CEPC, and investigate the impact of the Standard Model Drell-Yan background. We find that the hadronic channel offers greater sensitivity than the semileptonic channel. We also compare our results with existing constraints and future projections for CP violation in the 125 GeV Higgs sector and briefly discuss the implications for electroweak baryogenesis. Our results highlight the potential of future lepton colliders to probe CP violation in extended scalar sectors while remaining consistent with current EDM constraints.",
+   "authors": [
+    {
+     "n": "Jayita Lahiri",
+     "in": true
+    },
+    {
+     "n": "Cheng Li",
+     "in": false
+    },
+    {
+     "n": "Gudrid Moortgat-Pick",
+     "in": false
+    }
+   ],
+   "n_authors": 3,
+   "collaboration": "",
+   "institutes": [
+    "IISER, Kolkata, Mohanpur"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3222920,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2611.01274",
+   "date": "2026-10-31",
+   "title": "Measurement of the $\\lvert V_\\mathrm{cb}\\rvert$ element of the CKM matrix using $\\mathrm{t\\bar{t}}$ events in pp collisions at $\\sqrt{s}$ = 13 TeV",
+   "abstract": "A measurement of the magnitude of the Cabibbo$-$Kobayashi$-$Maskawa matrix element $V_\\mathrm{cb}$ is presented using top quark pair events produced in proton-proton collisions at $\\sqrt{s}$ = 13 TeV. The data correspond to an integrated luminosity of 138 fb$^{-1}$ collected by the CMS experiment at the LHC. The measurement targets the lepton+jets final state, where one W boson decays leptonically and the other hadronically. The value of $\\lvert V_\\mathrm{cb}\\rvert$ is extracted from the branching fraction of the W $\\to$ cb decay. To identify this rare signal amid the dominant W $\\to$ ud and W $\\to$ cs backgrounds, a multivariate discriminant based primarily on the b jet tagging information of the jets assigned to the hadronic W boson decay is used. The measured value is $\\lvert V_\\mathrm{cb}\\rvert$ = [4.59$^{+0.44}_{-0.48}$ (stat) $^{0.64}_{-0.76}$ (syst)] $\\times$ 10$^{-2}$. This measurement provides a complementary determination of $\\lvert V_\\mathrm{cb}\\rvert$ at the electroweak scale, independent of the nonperturbative quantum chromodynamics inputs used in measurements based on semileptonic B meson decays.",
+   "authors": [
+    {
+     "n": "Jyothsna Rani Komaragiri",
+     "in": true
+    },
+    {
+     "n": "Seema Bahinipati",
+     "in": true
+    },
+    {
+     "n": "Rishabh Raturi",
+     "in": true
+    },
+    {
+     "n": "Sunil Bansal",
+     "in": true
+    },
+    {
+     "n": "Vipin Bhatnagar",
+     "in": true
+    },
+    {
+     "n": "Bhawana Chauhan",
+     "in": true
+    },
+    {
+     "n": "Sushil Chauhan",
+     "in": true
+    },
+    {
+     "n": "Nitish Dhingra",
+     "in": true
+    },
+    {
+     "n": "Anureet Kaur",
+     "in": true
+    },
+    {
+     "n": "Harjot Kaur",
+     "in": true
+    },
+    {
+     "n": "Sunil Kumar",
+     "in": true
+    },
+    {
+     "n": "Tanvi Sheokand",
+     "in": true
+    },
+    {
+     "n": "Aayushi Singla",
+     "in": true
+    },
+    {
+     "n": "Kashish Verma",
+     "in": true
+    },
+    {
+     "n": "Ashutosh Bhardwaj",
+     "in": true
+    }
+   ],
+   "n_authors": 2506,
+   "collaboration": "CMS",
+   "institutes": [
+    "Bangalore, Indian Inst. Sci.",
+    "Indian Inst. Tech., Bhubaneswar",
+    "Panjab U.",
+    "Delhi U.",
+    "Indian Institute of Technology, Mandi",
+    "IIT, Jodhpur"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3221899,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.40629",
+   "date": "2026-10-29",
+   "title": "A Lighter QCD-Axion from Small Instantons",
+   "abstract": "We propose models where the QCD axion mass can be much smaller than the standard expectation. We show that this is possible in models where both QCD and the Standard Model flavor structure get modified in the ultraviolet (UV). In these models, both the axion mass and the up-quark Yukawa can receive sizeable non-perturbative contributions from instantons in the UV. If both these effects are carefully taken into account, the QCD axion is not necessarily heavier than usual expectations and can, in fact, be much lighter. We show that if small instanton contributions account for a large fraction of the up-quark Yukawa, the QCD axion can be lighter than standard expectations whereas it is heavier otherwise. We propose two different models where this condition is realised: (1) one where the QCD gauge group emerges as a subgroup from a product of $SU(3)$ groups in the UV; and (2) a composite Higgs model that also implements partial compositeness. In both these models the QCD axion can lie not only in the region to the right of the QCD axion band but also far to its left. This is especially relevant for a range of proposed haloscope and helioscope experiments that will probe a region mostly to the left of the QCD band.",
+   "authors": [
+    {
+     "n": "Sourav Bera",
+     "in": true
+    },
+    {
+     "n": "Susobhan Chattopadhyay",
+     "in": false
+    },
+    {
+     "n": "Rick S. Gupta",
+     "in": true
+    }
+   ],
+   "n_authors": 3,
+   "collaboration": "",
+   "institutes": [
+    "Tata Inst."
+   ],
+   "categories": [
+    "hep-ph",
+    "hep-th"
+   ],
+   "inspire": 3220618,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.38406",
+   "date": "2026-10-28",
+   "title": "Amplitude analysis of the charmed baryon decay Lambda_c+ to p K_S^0 pi0",
+   "abstract": "Using $e^+e^-$ annihilation data corresponding to an integrated luminosity of 4.5 fb$^{-1}$ collected with the BESIII detector at center-of-mass energies between 4.600 and 4.699 GeV, the first amplitude analysis of the charmed baryon decay $Λ_c^+ \\to p K_S^0 π^0$ is performed. The processes $Λ_c^+ \\to p \\bar{K}^{*}(892)^0$, $Λ_c^+ \\to Δ(1600)^+ K_S^0$, and $Λ_c^+ \\to N(1710)^+ K_S^0$ are identified with statistical significances of $12.8σ$, $14.5σ$, and $6.2σ$, respectively. The mass and width of $Δ(1600)^+$ are measured to be $(1520.4 \\pm 8.8 \\pm 37.7)~\\text{MeV}$ and $(199.4 \\pm 26.4 \\pm 39.9)~\\text{MeV}$, respectively. The mass and width of $N(1710)^+$ are measured to be $(1719.7 \\pm 9.4 \\pm 9.1)~\\text{MeV}$ and $(72.0 \\pm 18.0 \\pm 15.0)~\\text{MeV}$, respectively. The branching fractions of these processes are determined to be $\\mathcal{B}[Λ_c^+ \\rightarrow Δ(1600)^+ (\\rightarrow p π^0) K_S^0] = (8.10 \\pm 0.80 \\pm 5.57) \\times 10^{-3}$, $\\mathcal{B}[Λ_c^+ \\rightarrow N(1710)^+ (\\rightarrow p π^0) K_S^0] = (1.58 \\pm 0.48 \\pm 0.77) \\times 10^{-3}$, and $\\mathcal{B}[Λ_c^+ \\rightarrow p \\bar{K}^{*}(892)^0 (\\rightarrow K_S^0 π^0)] = (2.63 \\pm 0.47 \\pm 0.29) \\times 10^{-3}$, where the first uncertainties are statistical and the second systematic.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 760,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3220199,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.37416",
+   "date": "2026-10-27",
+   "title": "Observation of $χ_{c1,2}\\to p K^- K^- \\bar Ξ^{+} +c.c.$ and search for $χ_{c0}\\to p K^- K^- \\bar Ξ^{+} +c.c.$",
+   "abstract": "By analyzing $(2.712\\pm0.014)\\times10^9$ $ψ(3686)$ events collected by the BESIII detector, we report the first experimental study of the decays $χ_{cJ}\\to p K^- K^- \\bar Ξ^{+}+c.c.~(J=0,1,2)$. The decays $χ_{c1}\\to p K^- K^- \\bar Ξ^{+}+c.c.$ and $χ_{c2}\\to p K^- K^- \\bar Ξ^{+}+c.c.$ are observed for the first time with significances of $9.0σ$ each, and their branching fractions are determined to be $\\mathcal{B}_{χ_{c1}\\to p K^- K^- \\bar Ξ^{+}+c.c.} =(9.6^{+2.2}_{-2.0}\\pm0.8)\\times10^{-6}$, and $\\mathcal{B}_{χ_{c2}\\to p K^- K^- \\bar Ξ^{+}+c.c.} =(7.5^{+1.8}_{-1.5}\\pm0.5)\\times10^{-6}$, where the first and second uncertainties are statistical and systematic, respectively. No significant signal is observed for $χ_{c0}\\to p K^- K^- \\bar Ξ^{+}+c.c.$, and an upper limit on its branching fraction of $12.7\\times10^{-6}$ is established at the 90% confidence level.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 782,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3219502,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.37258",
+   "date": "2026-10-27",
+   "title": "Precision measurement of the $J/ψ\\toμ^+μ^-μ^+μ^-$ branching fraction and search for a new gauge boson $Z^{\\prime}$ at BESIII",
+   "abstract": "We present a precision measurement of the branching fraction of the rare decay $J/ψ\\toμ^+μ^-μ^+μ^-$, and a search for a new gauge boson $Z^{\\prime}$ that couples only to the second and third lepton generations, using a data sample of $(8998 \\pm 39) \\times 10^6$ $J/ψ$ events collected by the BESIII detector. The branching fraction of the $J/ψ\\toμ^+μ^-μ^+μ^-$ decay is measured to be $B(J/ψ\\toμ^+μ^-μ^+μ^-)=[0.91\\pm0.04~{\\rm (stat.)}\\pm0.07~{\\rm (syst.)}]\\times 10^{-6}$, representing the most precise measurement to date and consistent with the theoretical prediction within one standard deviation. Additionally, we search for $CP$ asymmetry in the $J/ψ\\toμ^+μ^-μ^+μ^-$ decay and determine the T-odd observable to be $A_T = [0.05\\pm 0.04~{\\rm (stat.)}\\pm0.01~{\\rm (syst.)}]$, which is consistent with $CP$ conservation. In the search for $J/ψ\\to Z^{\\prime}μ^+μ^-$ via $Z^{\\prime}\\toμ^+μ^-$, no significant $Z^{\\prime}$ signal is observed in the $μ^+μ^-$ invariant mass region of $(0.212,~2.6)$~GeV$/c^2$, and we set upper limits on the ${\\rm U}(1)_{L_μ-L_τ}$ model coupling constant $g^{\\prime}$ ranging from 0.001 to 0.294 at the 90% confidence level, which is comparable to the upper limits set by Belle II for $Z^{\\prime}$ masses below $0.7$~GeV$/c^2$.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 783,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3219537,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.37182",
+   "date": "2026-10-27",
+   "title": "Improved measurement of $ψ(3686)\\to π^+π^- η$",
+   "abstract": "Using a sample of $(2712.4 \\pm 14.3) \\times 10^6 $ $ψ(3686)$ events collected with the BESIII detector, we perform a partial wave analysis of the decay $ψ(3686)\\toπ^{+}π^{-}η$ with the $π^{+}π^{-}$ invariant mass in the $ρ(770)^0$ mass region, [0.3, 2.2] $\\mathrm{GeV}/c^2$. The cross section line-shape around the $ψ(3686)$ resonance is measured using energy-scan data sets, enabling the estimation of continuum contribution and its interference with the $ψ(3686)$ resonance. The branching fraction of $ψ(3686)\\toρ(770)^0η$ is determined to be $(1.34 \\pm 0.03\\pm0.13) \\times 10^{-5}$. The $ψ(3686)\\to a_{2}(1320)^{\\pm}π^{\\mp}$ decay is observed for the first time with a significance of $35.7σ$, and its partial branching fraction is measured to be $(2.13 \\pm 0.05\\pm0.32) \\times 10^{-5}$. The $η$-$η^{\\prime}$ pseudoscalar mixing angle $θ_P$ is then found to be $(-11.2 \\pm 1.6\\pm3.6)^\\circ$ or $(-19.4\\pm 3.1\\pm5.7)^\\circ$, where the first uncertainty is statistical and the second systematic.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 782,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3219494,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.36916",
+   "date": "2026-10-27",
+   "title": "Search for $e^{+}e^{-} \\to π^0 K^+K^-J/ψ$ at $\\sqrt{s}= 4.26 \\sim$ 4.95 GeV",
+   "abstract": "Using $e^+e^-$ collision data collected with the BESIII detector at 27 center-of-mass energies between 4.26 and 4.95 GeV corresponding to a total integrated luminosity of $13.0~\\text{fb}^{-1}$, we report the first search for the process $e^{+}e^{-} \\to π^0 K^+K^-J/ψ$. We additionally probe the cross section spectra for potential charmonium-like vector states and invariant mass distributions for intermediate $Z_c/Z_{cs}$ state signals, and find no resonant structures consistent with these exotic candidates. Given the absence of observed resonant signals, upper limits at the 90% confidence level are determined for the Born cross sections, along with their best-fit values, as well as for the production of the intermediate states.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 778,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3219464,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.36611",
+   "date": "2026-10-27",
+   "title": "Quark mixing and CP violation due to torsional interaction",
+   "abstract": "The dynamics of fermions in spacetime generates torsion, ultimately leading to a current-current interaction independent of gravity. This torsional four-fermion interaction is generically chiral and non-universal and may have observable consequences. Furthermore, the fermion basis in which this torsional interaction is diagonal may be different from the mass basis and the flavor basis. We work out the structure of the quark sector, where new CKM-like matrices appear as a result of diagonalizing the torsional interaction. CP violation is modified in general due to the appearance of additional phases. We also consider various processes which are affected by it such as kaon decays in particular and show that even when the torsional interaction is taken to be diagonal in the flavor basis, flavor-changing processes are still affected due to the non-universality of the torsional coupling constants. Finally, we discuss rephasing invariants in the presence of the torsional interaction and show how the Jarlskog invariant is modified even when the torsion basis is aligned with the flavor basis.",
+   "authors": [
+    {
+     "n": "Arnab Chakraborty",
+     "in": true
+    },
+    {
+     "n": "Amitabha Lahiri",
+     "in": true
+    }
+   ],
+   "n_authors": 2,
+   "collaboration": "",
+   "institutes": [
+    "Bose Natl. Ctr., Kolkata"
+   ],
+   "categories": [
+    "hep-ph",
+    "gr-qc"
+   ],
+   "inspire": 3219436,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.35587",
+   "date": "2026-10-26",
+   "title": "Neutrino Phenomenology and Leptogenesis from Non-Invertible Fusion Symmetry",
+   "abstract": "We constructed a minimal type-I seesaw model with two right-handed neutrinos, in which the flavor structure is determined by a non-invertible \\(\\mathbb{Z}_2\\)-gauged \\(\\mathbb{Z}_5\\) fusion symmetry~($\\mathbb{Z}^{IN}_5$). The framework, incorporating a second Higgs doublet and an auxiliary \\(\\mathbb{Z}_2\\) parity, yields predictive neutrino mass textures without introducing flavon fields. A fit to neutrino data selects the inverted mass ordering with \\(m_3=0\\) and predicts a nearly maximal Dirac CP phase, together with a characteristic prediction for the effective Majorana mass governing neutrinoless double-beta decay($0νββ$). We further investigate thermal leptogenesis and show that the framework can reproduce the observed baryon asymmetry of the Universe. Our results establish a connection between predictive neutrino phenomenology and leptogenesis within a minimal framework based on non-invertible fusion symmetry.",
+   "authors": [
+    {
+     "n": "Pulakesh Borah",
+     "in": true
+    },
+    {
+     "n": "Mrinal Kumar Das",
+     "in": true
+    }
+   ],
+   "n_authors": 2,
+   "collaboration": "",
+   "institutes": [
+    "Tezpur U."
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3219068,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.34706",
+   "date": "2026-10-26",
+   "title": "First measurement of $ψ(3686)\\to\\bar{p} K^{+} Σ^{*}(1385)^{0} + c.c.$ and $ψ(3686)\\to\\bar{p} K^{*}(892)^{0} Σ^{+} + c.c.$",
+   "abstract": "Based on a sample of $(2712.4 \\pm 14.3) \\times 10^6$$ψ(3686)$ events collected with the BESIII detector at the BEPCII collider, we report the first observation of the decays $ψ(3686)\\to\\bar{p} K^{+} Σ^{*}(1385)^{0}+c.c.$ and $ψ(3686)\\to\\bar{p} K^{*}(892)^{0} Σ^{+} + c.c.$. The corresponding branching fractions are determined to be $\\mathcal{B}(ψ(3686)\\to\\bar{p}K^+Σ^{*}(1385)^{0}+c.c.)=(3.94\\pm0.15_{\\text{stat.}}\\pm0.24_{\\text{syst.}})\\times10^{-5}$ and $\\mathcal{B}(ψ(3686)\\to\\bar{p}K^{*}(892)^{0}Σ^++c.c.)=(4.93\\pm0.14_{\\text{stat.}}\\pm0.30_{\\text{syst.}})\\times10^{-5}$. Furthermore, we search for the hidden-strange pentaquark candidates $N_{x}(1875)$ and $N_{x}(2100)$ in the invariant mass spectra of $K^{+} Σ^{*}(1385)^{0}$ and $K^{*}(892)^{0} Σ^{+}$, respectively. No significant signals are observed and the upper limits on the branching fractions at the 90% confidence level are $\\mathcal{B}(ψ(3686)\\to\\bar{p}N_{x}(1875)\\to\\bar{p}K^+Σ^{*}(1385)^{0})<1.58\\times10^{-6}$ and $\\mathcal{B}(ψ(3686)\\to\\bar{p}N_{x}(2100)\\to\\bar{p}K^{*}(892)^{0}Σ^+)<3.09\\times10^{-7}$.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 783,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3218954,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.34311",
+   "date": "2026-10-25",
+   "title": "Search for the rare decay $η^{\\prime}\\to 3γ$",
+   "abstract": "Using a data sample of $(10087 \\pm 44) \\times 10^{6} J/ψ$ events collected with the BESIII detector, we search for the rare decay $η^{\\prime}\\to 3γ$ via the process $J/ψ\\toγη^{\\prime}$. No significant signal is observed and an upper limit on the branching fraction of $η^{\\prime}\\to 3γ$ is set at $\\mathcal{B}(η^{\\prime}\\to 3γ) < 2.25\\times 10^{-5}$ at the 90% confidence level. This result improves the previous upper limit by more than a factor of four.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 784,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3218900,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.31291",
+   "date": "2026-10-22",
+   "title": "Precise Measurement of the Inclusive Cross Sections of Open-Charm Mesons at Energies from 3.80 to 4.95 GeV",
+   "abstract": "Using $e^+e^-$ collision data collected by the BESIII detector at center-of-mass energies from $3.80$ to $4.95~\\text{GeV}$, the inclusive production cross sections of open-charm mesons, $σ(e^{+}e^{-}\\to D^{0}/D^{+}/D_{s}^{+}+X)$, are measured by tagging a $D^0$, $D^+$, or $D_s^+$ meson, where $X$ denotes any accompanying particles. Open-charm production dominates the total hadronic yield above threshold. Therefore these measurements provide a vital reference for understanding hadron production and for validating global $R$ value results. The results offer crucial inputs for investigating heavier charmonia and exotic states coupled to open-charm final states, while serving as a benchmark for comparison with the sum of measured exclusive channels. This comparison directly evaluates the completeness of current exclusive datasets and clarifies the underlying hadronization mechanisms in the open-charm region.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 763,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3218151,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.30981",
+   "date": "2026-10-22",
+   "title": "Construction and phenomenological analysis of dynamical Inverse seesaw neutrino mixing model",
+   "abstract": "In this manuscript, a dynamical inverse seesaw neutrino ISS(3+1+1+1) mixing model based on the gauge symmetry $U(1)_{B-L}$ extended by the flavor symmetry $A_{4}\\times Z_{2}$ has been constructed. ISS(3+1+1+1) represents three generations of right-handed neutrinos and an extra three generation of singlets sterile neutrinos, wherein the right-handed neutrinos are triplets under $A_4$ symmetry. Furthermore, the five scalar flavon fields are considered in the model, which reproduce neutrino oscillation data within the NuFIT 6.0 experimental range with statistical $\\text{|pull|}=0.01 σ$. The neutrino mass hierarchy is obtained by minimizing the dynamical $A_4\\times Z_2$ scalar flavon $ϕ_v$ potential. The effective neutrino mass parameter $m_{ββ}$ for the neutrinoless double beta decay $0vββ$ has been charecterised in the manuscript. The effective neutrino mass parameter spans a finite region in the parameter space rather then being confined to a single point and it is constrained by the KamLAND-Zen excluded band. The model successfully explains active-sterile neutrino mixing and non-unitarity of the PMNS matrix is consistent with the cosmological upper bound. The minimum value of the sum of the active neutrinos' mass turns out to be $m_{i}\\approx 62\\ \\ (99.4)\\ \\text{meV}$ for Normal ordering (Inverted ordering), which lies within the range of both Planck 2018 loose cosmological limit $\\sum m_{i}<120\\ \\text{meV}$ and tighter limit $\\sum m_{i}<72\\ \\text{meV}$ of DESI-2024. Our model immensely favours normal ordering, in agreement with the tighter constraints reported by DESI-2024.",
+   "authors": [
+    {
+     "n": "Manish Singh Bisht",
+     "in": true
+    },
+    {
+     "n": "Shuchi Bisht",
+     "in": false
+    },
+    {
+     "n": "Mayank Joshi",
+     "in": true
+    },
+    {
+     "n": "Navjot Hothi",
+     "in": true
+    }
+   ],
+   "n_authors": 4,
+   "collaboration": "",
+   "institutes": [
+    "Department of Physics, D. S. B. Campus, Kumaun University,…",
+    "UPES, Dehradun"
+   ],
+   "categories": [
+    "hep-ph",
+    "gr-qc"
+   ],
+   "inspire": 3218090,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.29754",
+   "date": "2026-10-21",
+   "title": "Fermion Hierarchies from Fricke Modular Symmetry",
+   "abstract": "We show how Fricke modular symmetry can generate realistic fermion hierarchies and quark CP violation from a single modulus in a supersymmetric effective theory. Matter fields are labelled by the two one-dimensional characters of $Γ_0^+(N)$ that are trivial on $Γ_0(N)$, and interactions use complete spaces of cusp-regular holomorphic modular forms. At level three, the Fricke extension enlarges an interior stabilizer from order three to order six, allowing its parity to enforce three additional powers of the displacement $t$. An explicit assignment gives quark mass powers $(7,3,0)$ and $(5,4,2)$ and CKM powers $(1,2,3)$. The leading textures conserve CP, but an exact relation among the modular generators produces an appreciable CKM phase at finite displacement. A fit at $|t|\\simeq0.306$ reproduces the quark and lepton reference values with order one coefficients in a fixed normalization. We also relate the Fricke double-coset algebra to coset non-invertible symmetry; on the coefficient spaces used here its action reduces to ordinary Fricke parity.",
+   "authors": [
+    {
+     "n": "Takafumi Kai",
+     "in": false
+    },
+    {
+     "n": "Justin Kaidi",
+     "in": true
+    },
+    {
+     "n": "Katsumi Kina",
+     "in": false
+    },
+    {
+     "n": "Hajime Otsuka",
+     "in": false
+    }
+   ],
+   "n_authors": 4,
+   "collaboration": "",
+   "institutes": [
+    "Bose Natl. Ctr., Kolkata"
+   ],
+   "categories": [
+    "hep-ph",
+    "hep-th"
+   ],
+   "inspire": 3217382,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.29678",
+   "date": "2026-10-21",
+   "title": "Lorentz-Equivariant Geometric Algebra Transformers for Top-Quark Event Reconstruction",
+   "abstract": "Results are presented for Lorentz-equivariant geometric algebra transformers (LGaTr) in three event reconstruction tasks involving top quarks. Geometric algebra provides a common Lorentz-covariant representation of four-momenta and typed physical objects. Performance of LGaTr is evaluated on three different physics tasks - $t\\bar{t}/tWb$ separation, FCNC detection in single top-quark production and universal event reconstruction. LGaTr is outperforming the baseline networks in $tW/t\\bar{t}$ separation and full event reconstruction and is showing comparable or better performance to standard transformer-based networks. The implementation is provided in a companion repository https://github.com/emil2001/top-quark-universal-nets.",
+   "authors": [
+    {
+     "n": "E. Abasov",
+     "in": true
+    },
+    {
+     "n": "L. Dudko",
+     "in": true
+    },
+    {
+     "n": "A. Markina",
+     "in": true
+    },
+    {
+     "n": "M. Perfilov",
+     "in": true
+    },
+    {
+     "n": "P. Volkov",
+     "in": true
+    },
+    {
+     "n": "G. Vorotnikov",
+     "in": true
+    },
+    {
+     "n": "A. Zaborenko",
+     "in": true
+    }
+   ],
+   "n_authors": 7,
+   "collaboration": "",
+   "institutes": [
+    "SINP, Moscow"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3217369,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.27015",
+   "date": "2026-10-19",
+   "title": "$Λ_b \\to Λ\\ell^+\\ell^-$ and $Λ_b \\to Λ^{\\ast} \\ell^+\\ell^-$ decays with polarized leptons",
+   "abstract": "We present an analysis of lepton polarization observables in the rare flavor-changing neutral current decays $Λ_b \\to Λ\\ell^+\\ell^-$ and $Λ_b \\to Λ^*\\ell^+\\ell^-$. These decays are driven by the quark-level transition $b \\to s\\ell^+\\ell^-$ and are sensitive to short-distance physics within and beyond the Standard Model. We work within an effective Hamiltonian framework and derive single lepton polarization asymmetries, double lepton polarization asymmetries, and polarized forward-backward asymmetries using the helicity method. The observables are expressed in terms of transversity amplitudes and evaluated using state-of-the-art lattice QCD form factors. We analyze the $q^2$ dependence of several observables for both the ground-state $Λ$ and the excited $Λ^*(1520)$ final states and discuss sensitivities of the observables to chiral structure of the effective operators and complex Wilson coefficients.",
+   "authors": [
+    {
+     "n": "Diganta Das",
+     "in": true
+    },
+    {
+     "n": "Vedant Parekh",
+     "in": true
+    },
+    {
+     "n": "Ria Sain",
+     "in": false
+    },
+    {
+     "n": "Dargi Shameer",
+     "in": true
+    }
+   ],
+   "n_authors": 4,
+   "collaboration": "",
+   "institutes": [
+    "Hyderabad, IIIT"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3216766,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.26673",
+   "date": "2026-10-19",
+   "title": "Measurement of the relative phase between the strong and electromagnetic amplitudes in $\\boldsymbol{J/ψ\\to Σ^{+} \\barΣ^{-}}$",
+   "abstract": "Using 284 pb$^{-1}$ of $e^{+}e^{-}$ collision data collected with the BESIII detector at center-of-mass energies between 3.00 and 3.12 GeV, the relative phase between the strong and electromagnetic interaction amplitudes in the process $J/ψ\\to Σ^+ \\barΣ^-$ is determined. The relative phase is measured to be $(107.9 \\pm 24.9)^{\\circ}$ or $(-107.6 \\pm 24.3)^{\\circ}$, where the uncertainty includes both statistical and systematic sources. This is the first experimental determination of the strong-electromagnetic phase difference in $J/ψ$ decays to a hyperon-antihyperon pair. The branching fraction $\\mathcal{B}_{J/ψ\\to Σ^+ \\barΣ^-}$ is measured to be $(1.14 \\pm 0.04)\\times 10^{-3}$ for the positive phase solution or $(1.19 \\pm 0.04) \\times 10^{-3}$ for the negative phase solution. These results provide important input for testing perturbative QCD predictions and studies of SU(3) flavor symmetry.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 759,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3216380,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.24701",
+   "date": "2026-10-17",
+   "title": "Probing dark-matter scenarios of Belle II excess in $B^+\\to K^+M_X$ with $K^+\\to π^+ M_X$ decays",
+   "abstract": "The hypothesis of top-philic dark matter as the origin of the Belle II excess events in $B\\to K M_X$ decays has direct impact on $K\\to πM_X$ decays: Both of these decays proceed via loop diagrams~with a top quark emitting some mediator field $R$ and the subsequent decay of $R$ into a pair of dark-matter fermions $\\barχχ$. The Belle II results on $B\\to K M_X$ allowed us to extract the parameters of the mediator $R$ with reasonable accuracy, whereas the sensitivity to the fermion mass $m_χ$ proved to be rather low. In contrast to $B\\to K M_X$ decays, the $K\\to πM_X$ decays exhibit a strong sensitivity to $m_χ$; therefore, if - upon reducing theoretical and experimental uncertainties - the tension between standard-model predictions for the $K\\toπM_X$ decays and the most recent NA62 measurements becomes pronounced the latter decays may either enable the extraction of the value of $m_χ$ or provide a lower limit on~$m_χ$.",
+   "authors": [
+    {
+     "n": "Alexander Berezhnoy",
+     "in": true
+    },
+    {
+     "n": "Wolfgang Lucha",
+     "in": false
+    },
+    {
+     "n": "Dmitri Melikhov",
+     "in": true
+    }
+   ],
+   "n_authors": 3,
+   "collaboration": "",
+   "institutes": [
+    "SINP, Moscow"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3216241,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.21982",
+   "date": "2026-10-15",
+   "title": "First Observation of the Radiative Decay $D^0 \\to γω$",
+   "abstract": "We report the first observation of the radiative charm decay $D^0 \\to γω$ with a significance of $6.0σ$. The analysis uses 20.3 $\\rm{fb}^{-1}$ of $e^+e^-$ collision data collected by the BESIII detector at a center-of-mass energy of 3.773 GeV, and employs a deep learning strategy based on the Particle Transformer architecture. The absolute branching fraction of $\\mathcal{B}(D^0\\toγω)=(2.12\\pm 0.40_{\\rm stat}\\pm 0.25_{\\rm syst})\\times 10^{-5}$ confirms the dominance of long-distance hadronic dynamics in radiative charm decays and provides a valuable benchmark for testing non-perturbative QCD calculations of $D \\to γV$ transitions.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 770,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3215659,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.20324",
+   "date": "2026-10-14",
+   "title": "Measurement of Born cross sections of $e^+e^-\\to pK^{-}\\barΣ^{0}$ + c.c. at $\\sqrt{s}$ = 3.5-4.9 GeV and partial wave analysis at $\\sqrt{s}$ = 3.773 GeV",
+   "abstract": "Using $e^+e^-$ collision data collected by the BESIII detector at BEPCII corresponding to a total integrated luminosity of 44.6 $\\rm fb^{-1}$, we present the first measurement of the Born cross sections for the process $e^+e^-\\to pK^{-}\\barΣ^{0}$ + c.c. at fifty-six center-of-mass energies between 3.51 and 4.95~GeV. By fitting the dressed cross sections of $e^+e^-\\to pK^{-}\\barΣ^{0}$ + c.c. with the assumption of a power-law function plus a charmonium(-like) resonance, i.e., $ψ(3770)$, $ψ(4040)$, $ψ(4160)$, $Y(4230)$, $Y(4360)$, $ψ(4415)$, $ψ(4500)$, $Y(4660)$ or $ψ(4710)$, no significant charmonium(-like) state decaying into $pK^{-}\\barΣ^{0}$ + c.c. is observed. The product of branching fractions and electronic partial widths including their upper limits at the 90% confidence level are provided for each decay. In addition, a partial wave analysis of the process $e^+e^-\\to pK^{-}\\barΣ^{0}$ + c.c. at $\\sqrt{s}$ = 3.773 GeV is performed to investigate $N^{*}$, $Λ^{*}$ and $Σ^{*}$ resonances in the $K^{-}\\barΣ^{0}$ and $pK^{-}$ invariant mass spectra. Significant contributions are found from the $Λ(1520)$, $Σ(1670)$, $Σ(1915)$, $N(1900)$, $N(2300)$ and $N(2570)$. The masses, widths and production fractions for each component are determined.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 773,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3215211,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.17967",
+   "date": "2026-10-13",
+   "title": "Amplitude analysis of $ψ(3686)$ radiative decays into $π^{0} π^{0}$ system",
+   "abstract": "A model-independent amplitude analysis of the $π^{0} π^{0}$ system produced in radiative $ψ(3686)$ decays is presented. The analysis is based on the unique dataset of $(2712.4\\pm14.3)\\times10^6$$ψ(3686)$ decays collected by the BESIII detector. Scalar and tensor partial-wave contributions are obtained as piecewise functions of $M_{\\text{inv}}(π^{0} π^{0})$ with minimal model assumptions. The observed contribution of the scalar partial wave exhibits similar behavior to the one reported in the study of radiative $J/ψ$ decays, while the tensor contributions provide no evidence for resonance-like structures except for the clearly visible $f_2(1270)$. The results are presented in the form of log-likelihood scans in $M_{\\text{inv}}(π^{0} π^{0})$ bins, which preserve all the statistical information and account for relevant systematic uncertainties. The model-independent description provided in this paper allows to combine the presented results with other related data in the development of phenomenological models.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 770,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3214532,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.17787",
+   "date": "2026-10-13",
+   "title": "Heavy flavour production in the presence of a weak magnetic field",
+   "abstract": "We calculate an analytic expression for the cross section, up to order $(eB)^2$, for heavy quark ($Q$) production of mass $m_Q$ through the gluon ($g$) fusion process $g+g \\to Q+\\bar{Q}$ in the presence of a constant weak external magnetic field $B$ with strength $eB \\ll m_Q^2$. This is done using the weak-field expansion of the fermion propagator, calculated with Schwinger's proper-time formalism. Owing to the hierarchy of scales ($m_Q^2 \\gg eB$), we neglect the effects of the magnetic field on the quark and antiquark spinors in the external lines. Since the magnetic field breaks rotational invariance, the cross section becomes anisotropic and depends on the orientation angle $θ$ between the magnetic field and the incoming gluons in the center of mass frame. The lowest-order magnetic correction to the vacuum cross section scales as $(eB)^2$ and has $\\cos 2θ$ and $\\cos 4θ$ dependence, reflecting the breaking of rotational symmetry by the magnetic field. The cross section is maximized when the gluons propagate along the field direction ($θ= 0, π$) and minimized in the perpendicular configuration ($θ= π/2$). The resulting asymmetry peaks near the production threshold and falls with increasing center of mass energy, scaling as $(eB)^2/m_Q^4$ with the quark mass. These results provide direct, calculable signatures of the initial-stage magnetic field in relativistic heavy-ion collisions, which can in principle be imprinted on heavy-flavour observables measured in the final state.",
+   "authors": [
+    {
+     "n": "Sudeep Saha",
+     "in": true
+    },
+    {
+     "n": "Sandeep Chatterjee",
+     "in": true
+    },
+    {
+     "n": "Ujjal Kumar Dey",
+     "in": true
+    },
+    {
+     "n": "Snigdha Ghosh",
+     "in": true
+    }
+   ],
+   "n_authors": 4,
+   "collaboration": "",
+   "institutes": [
+    "Department of Physical Sciences, Indian Institute of Science…",
+    "IISER, Berhampur",
+    "GCECT, Kolkata"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3214522,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.15451",
+   "date": "2026-10-11",
+   "title": "Measurement of the cross sections for $e^{+}e^{-}\\to p\\bar{n}π^{-}$ at center of mass energies from 3.510 to 4.946 GeV",
+   "abstract": "Using a data sample corresponding to an integrated luminosity of 43.8~fb$^{-1}$ collected with the \\mbox{BESIII} detector at 44 center-of-mass energy points between 3.510 and 4.946~GeV, the Born cross sections for the process $e^+e^- \\to p \\bar{n} π^-$ and its charge-conjugated process are measured. The energy dependence of the dressed cross sections is investigated to search for possible contributions from vector charmonium and charmonium-like states. No evidence for contributions from the $ψ(3770)$, $Y(4230)$, $Y(4360)$, $ψ(4415)$, $Y(4500)$, or $Y(4710)$ resonances is observed. The upper limits at the 90% confidence level are determined for the products of the electronic partial widths and the branching fractions for the decays of these resonances into the $p \\bar{n} π^- + \\mathrm{c.c.}$ final state.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 787,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3214225,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.15332",
+   "date": "2026-10-11",
+   "title": "Measurements of the branching fractions of \\boldmath $χ_{cJ}\\toΣ^0\\barΣ^0η$",
+   "abstract": "Using $(2712.4\\pm14.3)\\times10^{6}$$ψ(3686)$ events collected with the BESIII detector at the BEPCII collider, we report the first observations of the decay $χ_{cJ}(J=0,1,2) \\to Σ^0\\barΣ^0η$. The signal significances, after considering systematic uncertainties, are determined to be 7.2$σ$, 5.7$σ$, and 6.7$σ$ for $χ_0$, $χ_{c1}$, and $χ_{c2}$, respectively. The branching fractions are measured to be $\\mathcal B(χ_{c0}\\toΣ^0\\barΣ^0η)=({9.7 \\pm 1.7 \\pm 0.8}) \\times 10^{-5}$, $\\mathcal B(χ_{c1}\\toΣ^0\\barΣ^0η)=({4.9 \\pm 1.1 \\pm 0.4}) \\times 10^{-5}$, and $\\mathcal B(χ_{c2}\\toΣ^0\\barΣ^0η)=({6.1 \\pm 1.2 \\pm 0.3}) \\times 10^{-5}$, where the first uncertainties are statistical and the second systematic. No significant structure in the $Σ^0\\barΣ^0,Σ^0η,\\barΣ^0η$ mass distributions is observed under the current statistics.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 770,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3214228,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.13101",
+   "date": "2026-10-09",
+   "title": "Determination of $U$-spin breaking parameters with an amplitude analysis of the decay $D^{0}\\to K_{\\text{S},\\text{L}}^{0}π^{+}π^{-}$",
+   "abstract": "We perform a simultaneous amplitude analysis of the decays $D^0 \\to K_{\\text{S}}^{0}π^{+}π^{-}$ and $D^0 \\to K_{\\text{L}}^{0}π^{+}π^{-}$ using an $e^+e^-$ collision data sample, corresponding to an integrated luminosity of $20.3\\,\\text{fb}^{-1}$, collected at the centre-of-mass energy of $3.773\\,\\text{GeV}$ with the BESIII detector. This study, based on a significantly larger dataset than that used in previous work, presents an updated measurement of the complex $U$-spin breaking parameters ($\\hatρ$) associated with various $CP$ eigenstate resonant modes mediating the three-body decays. The magnitudes of the $\\hatρ$ parameters range from $0.62$ to $4.45$, indicating substantial $U$-spin symmetry breaking. We also report the resonant fit fraction and obtain a model prediction for the average strong-phase parameters over regions of phase space for both decay modes.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 774,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3213707,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.13097",
+   "date": "2026-10-09",
+   "title": "Observation of a Threshold Enhancement in the $π^0π^0$ Mass Spectrum in $ψ(3686) \\rightarrow π^{0}π^{0}J/ψ$ Decays",
+   "abstract": "Using a data sample of $(2712.4\\pm14.4)\\times 10^{6}$$ψ(3686)$ events collected with the BESIII detector, we report a high-precision study of the $π^{0}π^{0}$ mass spectrum from $ψ(3686)\\rightarrowπ^{0}π^{0}J/ψ$ decays. The enhancement previously observed near the $ππ$ mass threshold in the $π^+π^-$ channel is confirmed, with a statistical significance exceeding 10$σ$. A fit with a Breit-Wigner function yields a mass of $M = 274.3\\pm 2.1_{\\rm stat.}\\pm0.6_{\\rm syst.}~{\\rm MeV}/c^2$ and a width of $Γ= 17.1\\pm 1.5_{\\rm stat.}\\pm0.5_{\\rm syst.}~{\\rm MeV}$, consistent with those from the $π^{+}π^{-}$ channel. By including final-state interactions, we analyze the data using both chiral perturbation theory (ChPT) and QCD multipole expansion (QCDME). While the ChPT model describes the higher-mass region above 0.3 GeV/$c^2$ well, it fails to reproduce the significant threshold enhancement. In contrast, the QCDME model, which incorporates the $S$- and $D$-wave admixture structure of $ψ(3686)$, provides a better description of the full $π^{0}π^{0}$ mass spectrum.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 782,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3213670,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.12373",
+   "date": "2026-10-08",
+   "title": "LFV in flavourful SMEFT: Dimension-Six Running versus Dimension-Eight Mixing",
+   "abstract": "We study how charged-lepton flavour violation (CLFV) generated in the $τ$ sector propagates into the $μ\\to e$ sector within the Standard Model Effective Field Theory (SMEFT). Assuming that new physics at a scale $Λ\\gg v$ produces only dimension-6 operators that mediate $τ\\to e$ and $τ\\toμ$ transitions, we identify and compare the three mechanisms that induce $μ\\to e$ observables. All three originate from double insertions of the two $τ\\to\\ell$ operators and scale as $C_6^{τe}C_6^{τμ}/Λ^4$. (T1) Renormalization-group mixing misaligns the charged-lepton mass matrix, and the rotation to the mass basis generates dimension-6 $μ\\to e$ operators. (T2) A finite, non-logarithmic remainder, which we find to be negligible. (T3) The overall divergence renormalizes dimension-8 operators, contributing after electroweak symmetry breaking. Since T1 and T3 carry no relative power of $Λ$, neither can be neglected at any scale, and only their comparison reveals which mechanism, and hence which $μ\\to e$ observable, most strongly probes a given operator pair. Surveying the Warsaw-basis operators, we classify representative $(τ\\to e,τ\\toμ)$ pairs into T1-dominated, T3-dominated, and T1--T3-comparable regimes, and explain the hierarchy through the underlying mixing chains. Translating current $μ\\to eγ$, $μ\\to eee$ and $μ\\to e$ conversion limits into bounds on products of $τ\\to\\ell$ Wilson coefficients, we find that they exceed the direct $τ$-decay constraints by factors of ten to several hundred. Excluding either T1 or T3 would miss these limits by orders of magnitude for some pairs, and shift them by factors of two to three in others. Interpreting $μ\\to e$ data as a probe of $τ$ flavour violation therefore requires both the dimension-6 RG running and the dimension-8 mixing contributions.",
+   "authors": [
+    {
+     "n": "Md Isha Ali",
+     "in": true
+    },
+    {
+     "n": "Siddhartha Karmakar",
+     "in": true
+    },
+    {
+     "n": "N. Rajeev",
+     "in": false
+    },
+    {
+     "n": "Sudhir K. Vempati",
+     "in": true
+    }
+   ],
+   "n_authors": 4,
+   "collaboration": "",
+   "institutes": [
+    "IACS, Kolkata",
+    "Bangalore, Indian Inst. Sci.",
+    "Indian Inst. Tech., Kanpur"
+   ],
+   "categories": [
+    "hep-ph",
+    "hep-ex",
+    "hep-th"
+   ],
+   "inspire": 3213013,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.11981",
+   "date": "2026-10-08",
+   "title": "Observation of $χ_{cJ}\\to ΛK^0_S\\bar Ξ^0 + c.c.$ and improved measurements of $χ_{cJ}\\to ΛK^-\\bar Ξ^+ + c.c.$",
+   "abstract": "By analyzing $(2712.4\\pm14.3)\\times10^6$$ψ(3686)$ events collected with the BESIII detector operating at the BEPCII collider, we report the first observation of $χ_{cJ}\\to ΛK^0_S\\bar Ξ^0 + c.c.$ ($J=0,1,2$) with significances greater than $10σ$, including systematic uncertainties, and improved measurements of $χ_{cJ}\\to ΛK^-\\bar Ξ^+ + c.c.$ The branching fractions of these decays are determined to be $\\mathcal{B}(χ_{c0}\\to ΛK^0_S\\bar Ξ^0+c.c.)=(1.13\\pm0.13\\pm0.13)\\times10^{-4}$, $\\mathcal{B}(χ_{c1}\\to ΛK^0_S\\bar Ξ^0+c.c.)=(0.74\\pm0.08\\pm0.07)\\times10^{-4}$, $\\mathcal{B}(χ_{c2}\\to ΛK^0_S\\bar Ξ^0+c.c.)=(1.16\\pm0.11\\pm0.14)\\times10^{-4}$, $\\mathcal{B}(χ_{c0}\\to ΛK^-\\bar Ξ^++c.c.)=(1.90\\pm0.08\\pm0.16)\\times10^{-4}$, $\\mathcal{B}(χ_{c1}\\to ΛK^-\\bar Ξ^++c.c.)=(1.40\\pm0.05\\pm0.11)\\times10^{-4}$, and $\\mathcal{B}(χ_{c2}\\to ΛK^-\\bar Ξ^++c.c.)=(1.95\\pm0.07\\pm0.15)\\times10^{-4}$. The first uncertainties are statistical, and the second are systematic.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 783,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3212989,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.07054",
+   "date": "2026-10-05",
+   "title": "First observation of the electromagnetic Dalitz decay $ψ(3686) \\rightarrow μ^+ μ^- η^\\prime$",
+   "abstract": "Utilizing $(2712.4 {\\pm} 14.3)\\times10^{6}~ψ(3686)$ events collected by the BESIII detector at the symmetric $e^+ e^-$ collider BEPCII, we report the first observation of the electromagnetic Dalitz decay $ψ(3686) \\to μ^+ μ^-η^{\\prime} $ with a statistical significance of 6.1$σ$. The branching fraction is determined to be $\\mathcal{B}(ψ(3686) \\to μ^+ μ^- η^{\\prime})=(4.1 \\pm 1.0_{\\rm stat.} \\pm 0.4_{\\rm syst.})\\times 10^{-7}$. The ratio to the branching fraction of the radiative decay $ψ(3686) \\to γη^{\\prime}$ is estimated to be $(3.3\\pm0.9)\\times10^{-3}$, which is consistent with the prediction of the vector meson dominance model within $1σ$. Furthermore, using the branching fraction of $ψ(3686) \\to e^+ e^- η^{\\prime}$ previously measured by the BESIII experiment, the ratio between the muon and the electron channels is evaluated to be $0.22\\pm0.07$, which is consistent with the calculation of the vector meson dominance model within $1σ$, and no significant violation of lepton flavor universality is found.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 780,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3212333,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.05261",
+   "date": "2026-10-04",
+   "title": "Observation of $D^+ \\to K^{*0}ρ^+$ and $D^+\\to K^{*+}ρ^0$ in Doubly Cabibbo-Suppressed Decay $D^+ \\to K^+π^+π^-π^0$",
+   "abstract": "By analyzing an $e^+e^-$ collision data sample with an integrated luminosity of 20.3 fb$^{-1}$ collected with the BESIII detector at the center-of-mass energy of 3.773 GeV, we perform the first amplitude analysis on the doubly Cabibbo-suppressed decay $D^+ \\to K^+π^+π^-π^0$ and report the first observation of $D^+ \\to K^{*0}ρ^+$ and $D^+\\to K^{*+}ρ^0$. The corresponding branching fractions are $(5.67\\pm0.41_{\\rm stat}\\pm0.17_{\\rm syst})\\times10^{-4}$ and $(5.32\\pm0.57_{\\rm stat}\\pm0.24_{\\rm syst})\\times10^{-4}$, respectively. These two $D\\to VV$ decay both have large transverse polarizations. The longitudinal polarization fractions are measured to be $0.111\\pm0.024_{\\rm stat}\\pm0.008_{\\rm syst}$ and $0.263\\pm0.049_{\\rm stat}\\pm0.015_{\\rm syst}$, respectively. The branching fraction of the decay $D^+\\to K^+ω$ is measured to be $(4.76\\pm0.84_{\\rm stat}\\pm0.13_{\\rm syst})\\times 10^{-5}$.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 760,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3211575,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.03489",
+   "date": "2026-10-02",
+   "title": "Search for pair-produced vector-like top quarks decaying into Lorentz-boosted top quarks and scalar bosons in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+   "abstract": "A search for pair-produced vector-like top quarks, T, decaying into a new scalar boson $ϕ$ and a standard model (SM) top quark is presented. The search targets events containing a photon pair originating from the decay of one of the scalar bosons, accompanied by all-hadronic decays of the SM top quark pair. The analysis is optimized for boosted top quark signatures in which the decay products of the top quarks are reconstructed as large-radius jets. The search is based on proton-proton collision data at $\\sqrt{s}$ = 13 TeV, collected by the CMS experiment at the CERN LHC during 2016$-$2018, corresponding to an integrated luminosity of 138 fb$^{-1}$. The search is performed for an array of T and $ϕ$ masses. No significant deviation from the predicted background is observed. The largest local excess has a significance of 2.7 standard deviations, reduced to 1.5 standard deviations after accounting for the look-elsewhere effect. Upper limits at 95% confidence level are set on the product of $\\mathrm{T\\bar{T}}$ production cross section and the branching fraction.",
+   "authors": [
+    {
+     "n": "Jyothsna Rani Komaragiri",
+     "in": true
+    },
+    {
+     "n": "Seema Bahinipati",
+     "in": true
+    },
+    {
+     "n": "Rishabh Raturi",
+     "in": true
+    },
+    {
+     "n": "Sunil Bansal",
+     "in": true
+    },
+    {
+     "n": "Vipin Bhatnagar",
+     "in": true
+    },
+    {
+     "n": "Bhawana Chauhan",
+     "in": true
+    },
+    {
+     "n": "Sushil Chauhan",
+     "in": true
+    },
+    {
+     "n": "Nitish Dhingra",
+     "in": true
+    },
+    {
+     "n": "Anureet Kaur",
+     "in": true
+    },
+    {
+     "n": "Harjot Kaur",
+     "in": true
+    },
+    {
+     "n": "Sunil Kumar",
+     "in": true
+    },
+    {
+     "n": "Tanvi Sheokand",
+     "in": true
+    },
+    {
+     "n": "Aayushi Singla",
+     "in": true
+    },
+    {
+     "n": "Kashish Verma",
+     "in": true
+    },
+    {
+     "n": "Ashutosh Bhardwaj",
+     "in": true
+    }
+   ],
+   "n_authors": 2537,
+   "collaboration": "CMS",
+   "institutes": [
+    "Bangalore, Indian Inst. Sci.",
+    "Indian Inst. Tech., Bhubaneswar",
+    "Panjab U.",
+    "Delhi U.",
+    "Indian Institute of Technology, Mandi",
+    "Indian Inst. Tech., Kanpur"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3211219,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.02855",
+   "date": "2026-10-02",
+   "title": "First measurement of the low-momentum negative-muon beam for the muon-to-electron conversion experiment at J-PARC",
+   "abstract": "The COMET Phase-$α$ experiment, the initial beam-operation stage of the COMET muon-to-electron conversion programme at J-PARC, took place in 2023 and marked the first beam operation at the COMET facility. It served to commission the delivery of a bunched, slow-extracted 8 GeV proton beam and the muon beamline. Its objective was to demonstrate experimentally that low-momentum negative muons could be transported to the experimental area through the Transport Solenoid (TS). We report a measurement of the transported muon beam using the Range Counter, a dedicated detector that identifies stopped negative muons by detecting delayed electrons emitted after the muons stop in a copper absorber. From the measured decay-time spectra, we reconstruct the number of stopped muons, the corresponding momentum spectrum, and the transverse beam profile. The observation of the stopped-muon component demonstrates that slow negative muons were transported through the TS to the experimental area. The reconstructed momentum spectrum indicates that the transported beam is concentrated in the low-momentum region. The non-uniform transverse profile is qualitatively consistent with charge drift in the curved solenoidal magnetic field. A Geant4-based simulation reproduces the overall dependence on degrader thickness and detector position; the measured yields are systematically higher by roughly 30%. These results provide the first experimental benchmark of low-momentum negative-muon transport in COMET and establish the basis for future beam characterisation and production studies.",
+   "authors": [
+    {
+     "n": "P. Chetry",
+     "in": true
+    },
+    {
+     "n": "E. George",
+     "in": true
+    },
+    {
+     "n": "R. Jeena",
+     "in": true
+    },
+    {
+     "n": "P. Sarin",
+     "in": true
+    }
+   ],
+   "n_authors": 185,
+   "collaboration": "COMET",
+   "institutes": [
+    "Indian Inst. Tech., Mumbai"
+   ],
+   "categories": [
+    "hep-ex",
+    "physics.ins-det"
+   ],
+   "inspire": 3211009,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.11568",
+   "date": "2026-10-01",
+   "title": "Selected open-charm decays of the narrow \\(P_c\\) states: Quark-interchange predictions and pion-exchange sensitivity",
+   "abstract": "The proximity of the narrow $P_c(4312)$, $P_c(4440)$, and $P_c(4457)$ structures to the $Σ_c\\bar D^{(*)}$ thresholds motivates their interpretation as hadronic molecules. We treat the $P_c(4312)$ as an $S$-wave $Σ_c\\bar D$ state with $J^P=1/2^-$ and examine both $J^P=1/2^-$ and $3/2^-$$Σ_c\\bar D^*$ assignments for each heavier peak. The selected $S$-wave open-charm transitions to $Λ_c\\bar D^{(*)}$ are calculated at Born order in the quark-interchange model, including the prior and post rearrangement diagrams and their color, flavor, spin, and spatial matrix elements. Across the input variations considered, the quark-interchange widths robustly favor $Λ_c\\bar D^*$ over $Λ_c\\bar D$ for every $J^P=1/2^-$ assignment. At either heavier peak mass, the $Λ_c\\bar D^*$ width for $J^P=3/2^-$ is suppressed by approximately one order of magnitude relative to $J^P=1/2^-$, providing a potential decay-based discriminator of the spin assignments. The large channel hierarchies arise from spatial overlaps and interference between spin-independent and hyperfine contributions and are not universal heavy-quark-spin-symmetry ratios. We also explore a retarded one-pion-exchange transition at first Born order. It affects $P_c(4312)\\toΛ_c\\bar D^*$ most strongly, while the coherent widths remain sensitive to the cutoff, energy-transfer prescription, short-distance subtraction, and unresolved relative matching sign. The quark-interchange hierarchies are therefore the central predictions, whereas the pion-exchange results quantify matching sensitivity. Measurements of the $Λ_c\\bar D^*$ modes can directly test these patterns.",
+   "authors": [
+    {
+     "n": "Vandan Patel",
+     "in": true
+    },
+    {
+     "n": "Ajay Kumar Rai",
+     "in": true
+    }
+   ],
+   "n_authors": 2,
+   "collaboration": "",
+   "institutes": [
+    "Department of Physics, Sardar Vallabhbhai National Institute of…"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3212917,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.01308",
+   "date": "2026-10-01",
+   "title": "Search for charged-lepton-flavour violating $eμtq$ interactions at $\\sqrt{s}=13$ TeV with the ATLAS detector",
+   "abstract": "A search for charged-lepton-flavour violation (cLFV) in top-quark production and decay is presented. The data analysed correspond to 140 fb$^{-1}$ of proton-proton collisions recorded at a centre-of-mass energy of $\\sqrt{s}= 13$ TeV by the ATLAS detector at the Large Hadron Collider. The possible cLFV contribution is studied via two mechanisms. The first is via the production of a leptonically-decaying single-top quark in association with a pair of oppositely-charged different-flavour leptons. The second is the production of top-quark pairs, where one top quark decays into a pair of oppositely-charged different-flavour leptons and a $u$- or $c$-quark, while the other decays into a leptonically-decaying $W$ boson and a $b$-quark, according to the Standard Model. The signal processes contain three charged leptons, taken to be electrons or muons. No significant deviation from the Standard Model prediction is observed, and these results are interpreted within an Effective Field Theory framework. Upper limits are placed at 95% confidence level on six Wilson coefficients, ranging from $|C^{\\mathrm{tensor}}_{eμtu}|/Λ^2 < 0.018$ TeV$^{-2}$ to $|C^{\\mathrm{scalar}}_{eμtc}|/Λ^2 < 0.32$ TeV$^{-2}$ for the tensor $u$-quark and scalar $c$-quark couplings, respectively. These Wilson coefficient limits are translated into 95% confidence level upper limits on cLFV top-quark decay branching ratios, ranging from $B(t \\to eμu) < 6 \\cdot 10^{-9}$ to $B(t \\to eμc) < 2.7 \\cdot 10^{-7}$ for the scalar $u$-quark and tensor $c$-quark couplings, respectively.",
+   "authors": [
+    {
+     "n": "Lata Panwar",
+     "in": true
+    }
+   ],
+   "n_authors": 2887,
+   "collaboration": "ATLAS",
+   "institutes": [
+    "IIT, Jodhpur"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3210807,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2610.00488",
+   "date": "2026-09-30",
+   "title": "A massive right-handed sterile neutrino in three-body ${\\bar B}\\to D^*\\ell^-{\\bar N}_R$ decays - a Monte Carlo simulation study",
+   "abstract": "We investigate the differential decay distributions of $\\bar{B}\\to D^*\\ell^-{\\bar N}_R $, where $N_R$ is a heavy right-handed neutrino (RHN) and $\\ell = e, μ$. We employ a newly developed Monte Carlo event generator based on the EvtGen framework that can simulate beyond-the-Standard-Model processes. We validate the implementation of the model by comparing the Monte-Carlo results with analytical results for several kinematic variables such as $q^2$ and missing mass, as well as signatures in the angular distributions such as $A_{FB}$, $S_{3}$, $S_{5}$, etc. This MC Generator will enable new experimental searches for RHNs. We discuss the sensitivity of various observables to the presence of an RHN and the feasibility of an experimental analysis at Belle II.",
+   "authors": [
+    {
+     "n": "Bhubanjyoti Bhattacharya",
+     "in": false
+    },
+    {
+     "n": "Thomas E. Browder",
+     "in": false
+    },
+    {
+     "n": "Lucien M. Cremaldi",
+     "in": false
+    },
+    {
+     "n": "Horacio Crotte Ledesma",
+     "in": false
+    },
+    {
+     "n": "Nilakshi Das",
+     "in": true
+    },
+    {
+     "n": "Alakabha Datta",
+     "in": false
+    },
+    {
+     "n": "Tejhas Kapoor",
+     "in": false
+    },
+    {
+     "n": "Kumar Pandey",
+     "in": false
+    },
+    {
+     "n": "Alexei Sibidanov",
+     "in": false
+    }
+   ],
+   "n_authors": 9,
+   "collaboration": "",
+   "institutes": [
+    "Indian Inst. Tech., Gandhinagar"
+   ],
+   "categories": [
+    "hep-ph",
+    "hep-ex"
+   ],
+   "inspire": 3210486,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2609.40008",
+   "date": "2026-09-30",
+   "title": "PINNing the pion: conformal deep learning for $F_π(s)$ and the $(g-2)_μ$ hadronic contribution",
+   "abstract": "Extracting the pion electromagnetic form factor $F_π(s)$ through phenomenological curve-fitting models introduces model dependence, unphysical artefacts, and kinematic inconsistencies. We introduce a Physics-Informed Neural Network (PINN) embedded in a conformal $z$-plane that constructs $F_π(s)$ directly from first principles across spacelike and timelike domains: charge normalisation and Schwarz reflection are enforced by construction, while Cauchy-Riemann analyticity, dispersion relations, Watson's theorem, and perturbative QCD asymptotics enter through the loss functional. Thus, the fundamental S-matrix principles dictate the form factor's behaviour while data act as constraints. Mapping the cut complex plane onto the unit disk bounds the Hessian norm and prevents Neural Tangent Kernel spectral starvation, two known failure modes of deep-learning optimisation. Besides $e^+e^-$ scattering data, we also incorporate $τ$-decay data through a switch that isolates the pure isovector form factor natively, bypassing model-dependent isospin-breaking pre-corrections. The network organically yields an interior zero-free form factor, while the framework tests experimental tensions around the $ρ(770)$ peak against analyticity and dispersion constraints. We obtain model-independent estimates of the pion charge radius, $\\langle r_π^2 \\rangle = 0.435 \\pm 0.008_{\\text{stat}} \\pm 0.007_{\\text{cali}}$ fm$^2$, the second-sheet pole parameters, $m_ρ^{\\text{pole}} = 761.72\\pm 1.04$ MeV and $Γ_ρ^{\\text{pole}} = 135.99 \\pm 1.20$ MeV, and the two-pion contribution to the muon anomalous magnetic moment, $a_μ^{ππ} = (506.48 \\pm 2.02_{\\text{stat}} \\pm 1.70_{\\text{cali}}) \\times 10^{-10}$.",
+   "authors": [
+    {
+     "n": "Mayank Goel",
+     "in": true
+    },
+    {
+     "n": "Subhadip Mitra",
+     "in": true
+    },
+    {
+     "n": "Monalisa Patra",
+     "in": true
+    }
+   ],
+   "n_authors": 3,
+   "collaboration": "",
+   "institutes": [
+    "Hyderabad, IIIT"
+   ],
+   "categories": [
+    "hep-ph",
+    "cs.LG",
+    "hep-ex"
+   ],
+   "inspire": 3209584,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2609.39713",
+   "date": "2026-09-30",
+   "title": "Measurement of prompt and non-prompt ${\\rm D}^{\\rm *+}$-meson spin alignment in pp collisions at $\\sqrt{s}$ = 13.6 TeV$",
+   "abstract": "A precise measurement of prompt and non-prompt ${\\rm D}^{\\rm *+}$-meson spin alignment with respect to the helicity and production axes in proton-proton (pp) collisions at $\\sqrt{s} = 13.6$ TeV is presented, using data collected with the ALICE experiment at the LHC. The spin alignment is quantified by measuring the diagonal spin density matrix element $ρ_{\\rm 00}$ for ${\\rm D}^{\\rm *+}$ mesons at midrapidity ($|y|<0.8$). The measurement is performed in the transverse-momentum ($p_{\\rm T}$) range $3<p_{\\rm T}<100$ GeV/$c$ for prompt ${\\rm D}^{\\rm *+}$ mesons and $3<p_{\\rm T}<30$ GeV/$c$ for non-prompt ${\\rm D}^{\\rm *+}$ mesons, respectively. The measured $ρ_{\\rm 00}$ values for prompt ${\\rm D}^{\\rm *+}$ mesons are consistent with the unpolarised expectation of $1/3$ over the entire $p_{\\rm T}$ range, indicating no evidence of spin alignment. In contrast, $ρ_{\\rm 00}$ of non-prompt ${\\rm D}^{\\rm *+}$ mesons exhibit a deviation from $1/3$, consistent with expectations from weak beauty-hadron decays and well described by PYTHIA 8 simulations coupled with the EvtGen decay package. These results confirm and extend previous measurements, providing a precise baseline for future studies of ${\\rm D}^{\\rm *+}$ spin alignment in heavy-ion collisions.",
+   "authors": [
+    {
+     "n": "Zubayer Ahammed",
+     "in": true
+    },
+    {
+     "n": "Shakeel Ahmad",
+     "in": true
+    },
+    {
+     "n": "Bushra Ali",
+     "in": true
+    },
+    {
+     "n": "Mohd Danish Azmi",
+     "in": true
+    },
+    {
+     "n": "Renu Bala",
+     "in": true
+    },
+    {
+     "n": "Koushik Barai",
+     "in": true
+    },
+    {
+     "n": "Banajit Barman",
+     "in": true
+    },
+    {
+     "n": "Daniel Battistini",
+     "in": true
+    },
+    {
+     "n": "Dibakar Bauri",
+     "in": true
+    },
+    {
+     "n": "Debadatta Behera",
+     "in": true
+    },
+    {
+     "n": "Swadhin Behera",
+     "in": true
+    },
+    {
+     "n": "Partha Pratim Bhaduri",
+     "in": true
+    },
+    {
+     "n": "Tushar Bhalla",
+     "in": true
+    },
+    {
+     "n": "Anju Bhasin",
+     "in": true
+    },
+    {
+     "n": "Buddhadeb Bhattacharjee",
+     "in": true
+    }
+   ],
+   "n_authors": 1036,
+   "collaboration": "ALICE",
+   "institutes": [
+    "Calcutta, VECC",
+    "Aligarh Muslim U.",
+    "Jammu U.",
+    "Saha Inst.",
+    "Gauhati U.",
+    "SINP, Moscow"
+   ],
+   "categories": [
+    "hep-ex",
+    "nucl-ex"
+   ],
+   "inspire": 3209903,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2609.36696",
+   "date": "2026-09-29",
+   "title": "Sensitivities of Long and Medium Baseline Experiments to Sterile Neutrinos and Non-Standard Interactions",
+   "abstract": "In this work, we present for the first time, the simultaneous analysis of the non-standard neutrino interactions (NSI) and a light sterile neutrino in the 3+1 framework for the future long- and medium-baseline experiments DUNE and MOMENT, respectively. We show that treating the two sectors separately yields over optimistic sensitivities. The simultaneous presence of sterile-neutrino mixing and complex NSI weakens the $|\\varepsilon_{eμ}|$ sensitivity by a factor of $\\sim (2-3)$ with the dominant degradation associated with the additional parameter freedom in the flavor-changing NSI sector. DUNE alone fails to achieve $5σ$ CP-violation discovery, once NSI phases are marginalized over. The DUNE+MOMENT combination recovers $>5σ$ sensitivity over a wide range of $δ_{\\rm CP}$ space, constrains $\\sin^2θ_{24}\\lesssim10^{-2}$ and $|\\varepsilon_{eμ}|\\lesssim0.025$ at $95\\%$~C.L., and resolves degeneracies that are intractable for either experiment alone. Our results establish that a multi-baseline strategy combining matter-rich and near-vacuum baselines is necessary for robust parameter extraction in the simultaneous presence of two new physics scenarios. It is also important to perform simultaneous new physics analyses to reliably interpret future precision neutrino oscillation data.",
+   "authors": [
+    {
+     "n": "Sambit Kumar Pusty",
+     "in": true
+    },
+    {
+     "n": "Trisha Guin",
+     "in": true
+    },
+    {
+     "n": "Rukmani Mohanta",
+     "in": true
+    }
+   ],
+   "n_authors": 3,
+   "collaboration": "",
+   "institutes": [
+    "School of Physics, University of Hyderabad, Hyderabad, 500046, India"
+   ],
+   "categories": [
+    "hep-ph"
+   ],
+   "inspire": 3209155,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2609.36028",
+   "date": "2026-09-28",
+   "title": "Measurements of the inclusive Branching fractions of the $D_s^+ \\to η(η^\\prime) X$ decays",
+   "abstract": "Using $e^+ e^-$ collision data collected with the BESIII detector at center-of-mass energies between $4.128$ and $4.226$ GeV, corresponding to an integrated luminosity of $7.33~{\\rm fb}^{-1}$, the inclusive branching fractions of the decays $D_s^+ \\to ηX$ and $D_s^+ \\to η^\\prime X$ ($X$ denotes any possible particles) are measured to be $(30.72 \\pm 0.90 \\pm 0.46)\\%$ and $(12.30 \\pm 0.94 \\pm 0.37)\\%$, where the first uncertainties are statistical and the second systematic. The results are consistent with the previous CLEO measurements, with precision improved by factors of 2.8 and 1.9 for $D_s^+ \\to ηX$ and $D_s^+ \\to η^\\prime X$, respectively.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 782,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3209109,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2609.36019",
+   "date": "2026-09-28",
+   "title": "Electric Dipole Moments as Precision Probes of CP-Violating Top-Quark Interactions in SMEFT",
+   "abstract": "Electric dipole moments (EDMs) provide some of the most sensitive probes of CP-violating interactions beyond the Standard Model (SM). Within the Standard Model Effective Field Theory (SMEFT), we investigate constraints on CP-violating top-quark interactions using current and projected leptonic and hadronic EDM measurements. Our analysis incorporates the complete chain of relevant effects, including one- and two-loop matching, Barr-Zee contributions, Weinberg operator and heavy-quark threshold corrections, and renormalization-group induced operator mixing. We demonstrate the strong complementarity between leptonic and hadronic EDM observables and show that future proton EDM searches could significantly strengthen constraints on several CP-violating top-quark interactions.",
+   "authors": [
+    {
+     "n": "Subhajit Kala",
+     "in": true
+    },
+    {
+     "n": "Soumitra Nandi",
+     "in": true
+    },
+    {
+     "n": "Sonakshi Saha",
+     "in": true
+    }
+   ],
+   "n_authors": 3,
+   "collaboration": "",
+   "institutes": [
+    "Indian Inst. Tech., Guwahati"
+   ],
+   "categories": [
+    "hep-ph",
+    "hep-ex"
+   ],
+   "inspire": 3209089,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  },
+  {
+   "id": "2609.33606",
+   "date": "2026-09-27",
+   "title": "Improved search for $ψ(3770) \\to γη_{c}(1S, 2S)$ radiative transitions",
+   "abstract": "Based on an integrated luminosity of $20.3~\\mathrm{fb}^{-1}$ of $e^{+}e^{-}$ annihilation data collected at a center-of-mass energy of $3.773~\\rm{GeV}$ with the BESIII detector operating at the BEPCII collider, an improved search for the radiative transitions $ψ(3770) \\to γη_{c}(1S, 2S)$ is performed using the hadronic decays $η_{c}(1S, 2S) \\to K^{0}_{S} K^{\\pm} π^{\\mp}$. No significant signal is observed. The corresponding 90$\\%$ confidence level upper limits on the product branching fractions are set to be $5.0 \\times 10^{-6}$ for the $η_{c}(1S)$ transition and $3.7 \\times 10^{-6}$ for the $η_{c}(2S)$ transition. The 90$\\%$ confidence level upper limits on the partial decay widths are also reported to be $Γ(ψ(3770) \\to γη_{c}(1S)) < 5.5$ keV and $Γ(ψ(3770) \\to γη_{c}(2S)) < 29.4~\\rm{keV}$. With about seven times larger integrated luminosity than used previously, these results lower the upper limits by approximately a factor of three and two for the $η_{c}(1S)$ and $η_{c}(2S)$ transitions, respectively.",
+   "authors": [
+    {
+     "n": "Neeraj Kumar",
+     "in": true
+    },
+    {
+     "n": "Jim Libby",
+     "in": true
+    }
+   ],
+   "n_authors": 788,
+   "collaboration": "BESIII",
+   "institutes": [
+    "Indian Inst. Tech., Madras"
+   ],
+   "categories": [
+    "hep-ex"
+   ],
+   "inspire": 3208569,
+   "html": true,
+   "html_checked": "2026-11-25",
+   "added": "2026-11-25"
+  }
+ ]
 }
