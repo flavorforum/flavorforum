@@ -12,7 +12,7 @@
   Both values above are public by design; it is fine that they are in this file.
 */
 window.FF_CONFIG = {
-  COMMENTS_API: "https://flavorforum-comments.YOUR-SUBDOMAIN.workers.dev",
-  TURNSTILE_SITEKEY: "PASTE-TURNSTILE-SITE-KEY",
+  COMMENTS_API: "https://flavorforum-comments.flavourforum.workers.dev",
+  TURNSTILE_SITEKEY: "0x4AAAAAAGVgjVruMA8WRZwO",
   EMBED_READER: true
 };
